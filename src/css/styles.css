@@ -4,8 +4,30 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-
-:root {
-  
+.conteiner{
+  padding-left: 85px;
+  padding-right: 85px;
 }
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./hero-number.css');
+@import url('./hero-restaurant.css');
+@import url('./hero-room.css');
+@import url('./amenities.css');
+@import url('./apartmens.css');
+@import url('./booking.css');
+@import url('./double.css');
+@import url('./hotel.css');
+@import url('./kitchen.css');
+@import url('./map.css');
+@import url('./menu.css');
+@import url('./price.css');
+@import url('./reservation.css');
+@import url('./restaurant.css');
+@import url('./suite.css');
+@import url('./table.css');
+@import url('./triple.css');
+/* :root {
+  
+} */
