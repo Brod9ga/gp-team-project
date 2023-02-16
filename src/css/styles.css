@@ -23,6 +23,12 @@
   padding-left: 85px;
   padding-right: 85px;
 }
+
+@font-face {
+  font-family: FilmP3;
+  src: url(../src/fonts/FilmP3.ttf);
+}
+
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
