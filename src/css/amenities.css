@@ -17,15 +17,11 @@ body {
     list-style: none;
 }
 
-/* -------------------------- */
-
 /* знімає декорацію силок */
 
 .link {
     text-decoration: none;
 }
-
-/* -------------------------- */
 
 .container {
     margin-left: auto;
