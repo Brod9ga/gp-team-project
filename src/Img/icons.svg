@@ -3,5 +3,11 @@
 <symbol id="icon-cil_arrow" viewBox="0 0 32 32">
 <path d="M22.492 7.587l-1.413 1.413 6 6h-26.079v2h26.077l-6 6 1.415 1.413 8.413-8.413-8.413-8.413z"></path>
 </symbol>
+<symbol id="icon-arrow-left" viewBox="0 0 32 32">
+<path d="M31.083 15h-26.078l6-6-1.414-1.414-8.414 8.414 8.414 8.414 1.414-1.414-6-6h26.078v-2z"></path>
+</symbol>
+<symbol id="icon-arrow-right" viewBox="0 0 32 32">
+<path d="M22.492 7.586l-1.414 1.414 6 6h-26.078v2h26.078l-6 6 1.414 1.414 8.414-8.414-8.414-8.414z"></path>
+</symbol>
 </defs>
 </svg>
