@@ -42,6 +42,7 @@
 
 .info-text {
     color: var(--body-text-color);
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
@@ -59,6 +60,7 @@
 
 .subject-text {
     color: var(--body-text-color);
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
