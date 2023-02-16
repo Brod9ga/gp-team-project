@@ -39,6 +39,10 @@
     margin-bottom: 16px;
 }
 
+.info-text {
+    color: var(--body-text-color);
+}
+
 .subject {
     font-family: 'Tinos', sans-serif;
     font-weight: 400;
@@ -46,6 +50,10 @@
     line-height: 37px;
     color:var(--black-text-color);
     margin-bottom: 16px;
+}
+
+.subject-text {
+    color: var(--body-text-color);
 }
 
 .control {
