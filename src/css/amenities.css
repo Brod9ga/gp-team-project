@@ -23,7 +23,7 @@
     text-decoration: none;
 }
 
-.container {
+.container-amenities {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -146,7 +146,7 @@
 /*====== АДАПТИВКА ДЛЯ МОБІЛКИ======== */
 
 @media screen and (min-width: 320px) {
-    .container {
+    .container-amenities {
         max-width: 414px;
         width: 100%;
         margin-left: auto;
@@ -232,7 +232,7 @@
 /* ========АДАПТИВКА ДЛЯ ТАБЛЕТА ============*/
 
 @media screen and (min-width: 1024px) {
-    .container {
+    .container-amenities {
         max-width: 1024px;
         width: 100%;
         margin-left: auto;
@@ -273,7 +273,7 @@
 /* =======АДАПТИВКА ДЛЯ ДЕСКТОПА====== */
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .container-amenities {
         max-width: 1280px;
         width: 100%;
         margin-left: auto;
