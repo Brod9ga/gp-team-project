@@ -23,16 +23,23 @@
     text-decoration: none;
 }
 
-.container {
+.container-amenities {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: var(-light-background-color);
+}
+
+.box{
+    background-color: var(--light-background-color);
+}
+
+.info-list{
+    margin-bottom: 40px;
 }
 
 .subtitle {
-    font-family: 'Tinos', sans-serif;
+    font-family: 'Times New Roman', serif-sarif;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.17;
@@ -50,7 +57,7 @@
 }
 
 .subject {
-    font-family: 'Tinos', sans-serif;
+    font-family: 'Times New Roman', serif-sarif;
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
@@ -67,11 +74,22 @@
     letter-spacing: 0.02em;
 }
 
+.subtitle-text{
+    color: var(--body-text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+
+}
+
 .control {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 48px;
     /* margin-right: 114px; */
 }
 
@@ -128,7 +146,7 @@
 /*====== АДАПТИВКА ДЛЯ МОБІЛКИ======== */
 
 @media screen and (min-width: 320px) {
-    .container {
+    .container-amenities {
         max-width: 414px;
         width: 100%;
         margin-left: auto;
@@ -140,10 +158,6 @@
         display: flex;
         flex-direction: column;
         gap: 32px;
-    }
-
-    .box {
-        padding: 0 0 32px 0;
     }
 
     .subject {
@@ -178,7 +192,7 @@
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 413px) {
+/* @media screen and (min-width: 320px) and (max-width: 413px) {
     .subject {
         font-size: 16px;
         line-height: 1.25;
@@ -213,12 +227,12 @@
         font-size: 13px;
         line-height: 1.1;
     }
-}
+} */
 
 /* ========АДАПТИВКА ДЛЯ ТАБЛЕТА ============*/
 
 @media screen and (min-width: 1024px) {
-    .container {
+    .container-amenities {
         max-width: 1024px;
         width: 100%;
         margin-left: auto;
@@ -259,7 +273,7 @@
 /* =======АДАПТИВКА ДЛЯ ДЕСКТОПА====== */
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .container-amenities {
         max-width: 1280px;
         width: 100%;
         margin-left: auto;
@@ -274,4 +288,5 @@
     .info-items {
         gap: 159px;
     }
+    
 }

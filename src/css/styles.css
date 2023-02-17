@@ -41,10 +41,22 @@
 }
 
 .conteiner {
-  padding-left: 85px;
-  padding-right: 85px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
+ @media screen and (min-width: 1024px){
+    .conteiner{
+      padding-left: 47px;
+      padding-right: 47px;
+    }
+}
+@media screen and (min-width: 1200px){
+  .conteiner{
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
 @font-face {
   font-family: FilmP3;
   src: url(../fonts/FilmP3.ttf);
