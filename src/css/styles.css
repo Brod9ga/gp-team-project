@@ -4,48 +4,60 @@
   | default @import url()
   |============================
 */
-:root { 
+@import url('reset.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('hero-number.css');
+@import url('hero-restaurant.css');
+@import url('hero-room.css');
+@import url('amenities.css');
+@import url('apartmens.css');
+@import url('booking.css');
+@import url('double.css');
+@import url('hotel.css');
+@import url('kitchen.css');
+@import url('map.css');
+@import url('menu.css');
+@import url('price.css');
+@import url('reservation.css');
+@import url('restaurant.css');
+@import url('suite.css');
+@import url('table.css');
+@import url('triple.css');
+
+:root {
   --white-background-color: #ffffff;
-  --light-background-color:#FFFDEE;
-  --dark-background-color:#F0ECD6;
-  --footer-background-color:#0E0C07;
+  --light-background-color: #fffdee;
+  --dark-background-color: #f0ecd6;
+  --footer-background-color: #0e0c07;
   --light-logo-color: #ffffff;
   --dark-logo-color: #494848;
-  --accent-yellow-color: #F3C653; 
+  --accent-yellow-color: #f3c653;
   --white-text-color: #ffffff;
   --black-text-color: #000000;
-  --body-text-color: #7A7A7A;
-  --brown-text-color: #C79002;
+  --body-text-color: #7a7a7a;
+  --brown-text-color: #c79002;
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.conteiner{
-  padding-left: 85px;
-  padding-right: 85px;
+.conteiner {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
+ @media screen and (min-width: 1024px){
+    .conteiner{
+      padding-left: 47px;
+      padding-right: 47px;
+    }
+}
+@media screen and (min-width: 1200px){
+  .conteiner{
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
 @font-face {
   font-family: FilmP3;
-  src: url(../src/fonts/FilmP3.ttf);
+  src: url(../fonts/FilmP3.ttf);
 }
-
-@import url('./reset.css');
-@import url('./header.css');
-@import url('./hero.css');
-@import url('./hero-number.css');
-@import url('./hero-restaurant.css');
-@import url('./hero-room.css');
-@import url('./amenities.css');
-@import url('./apartmens.css');
-@import url('./booking.css');
-@import url('./double.css');
-@import url('./hotel.css');
-@import url('./kitchen.css');
-@import url('./map.css');
-@import url('./menu.css');
-@import url('./price.css');
-@import url('./reservation.css');
-@import url('./restaurant.css');
-@import url('./suite.css');
-@import url('./table.css');
-@import url('./triple.css');

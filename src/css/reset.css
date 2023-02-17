@@ -13,7 +13,8 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -34,10 +35,10 @@ img {
   height: auto;
 }
 
-.link{
+.link {
   text-decoration: none;
 }
 
-.list{
+.list {
   list-style: none;
 }
