@@ -30,8 +30,8 @@
     padding-right: 15px;
 }
 
-.box {
-    background-color: var(-light-background-color);
+.box{
+    background-color: var(--light-background-color);
 }
 
 .info-list{
@@ -74,11 +74,22 @@
     letter-spacing: 0.02em;
 }
 
+.subtitle-text{
+    color: var(--body-text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+
+}
+
 .control {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 48px;
     /* margin-right: 114px; */
 }
 
@@ -181,7 +192,7 @@
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 413px) {
+/* @media screen and (min-width: 320px) and (max-width: 413px) {
     .subject {
         font-size: 16px;
         line-height: 1.25;
@@ -216,7 +227,7 @@
         font-size: 13px;
         line-height: 1.1;
     }
-}
+} */
 
 /* ========АДАПТИВКА ДЛЯ ТАБЛЕТА ============*/
 
@@ -277,4 +288,5 @@
     .info-items {
         gap: 159px;
     }
+    
 }
