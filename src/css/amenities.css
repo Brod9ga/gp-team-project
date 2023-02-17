@@ -28,11 +28,18 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.box {
     background-color: var(-light-background-color);
 }
 
+.info-list{
+    margin-bottom: 40px;
+}
+
 .subtitle {
-    font-family: 'Tinos', sans-serif;
+    font-family: 'Times New Roman', serif-sarif;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.17;
@@ -50,7 +57,7 @@
 }
 
 .subject {
-    font-family: 'Tinos', sans-serif;
+    font-family: 'Times New Roman', serif-sarif;
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
@@ -140,10 +147,6 @@
         display: flex;
         flex-direction: column;
         gap: 32px;
-    }
-
-    .box {
-        padding: 0 0 32px 0;
     }
 
     .subject {
