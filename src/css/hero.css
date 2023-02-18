@@ -1,3 +1,13 @@
+.hero-section{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65)rgba(0, 0, 0, 0.65)),url(../Img/Homepage/Homepage-hero1-2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .hero-title {
     width: 404px;
     height: 138px;
