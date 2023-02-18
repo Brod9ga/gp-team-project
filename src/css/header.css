@@ -16,20 +16,20 @@ ul {
     padding-left: 0;
 }
 
+
 .header {
-    min-width: 414px;
     padding-top: 24px;
     padding-bottom: 24px;
-    /* outline: 1px solid red; */
     background-color: transparent;
     display: flex;
     align-items: center;
     position: absolute;
 }
 
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-navigation {
@@ -110,10 +110,13 @@ ul {
 }
 
 @media screen and (min-width:320px) {
-    .logo {
-        margin-left: 15px;
-        padding-right: 52px;
+    .conteiner {
+        width: 379px;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    .logo {}
 
     .restorant-tel-and-pic {
         display: none;
@@ -129,6 +132,16 @@ ul {
 }
 
 @media screen and (min-width:1024px) {
+    .conteiner {
+        width: 930px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-right: 207px;
+    }
+
     .restorant-tel-svg {
         display: flex;
         align-items: center;
@@ -168,4 +181,24 @@ ul {
         align-items: center;
         gap: 23px;
     }
+
+    .conteiner {
+        width: 1110px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-right: 135px;
+    }
+
+    .link-to-restourant {
+        margin-right: 46px;
+    }
+
+    .link-to-hotel {
+        margin-right: 46px;
+    }
+
+
 }
