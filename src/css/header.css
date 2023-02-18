@@ -12,65 +12,70 @@ ul {
 }
 
 .header {
+    min-width: 320px;
     padding-top: 24px;
     padding-bottom: 24px;
     /* outline: 1px solid red; */
-    background-color: blue;
-}
-
-.header>.header-container,
-.header-navigation,
-.header-list-contact,
-.header-soc-linc,
-.restorant-tel-svg,
-.hotel-tel-svg {
+    background-color: black;
     display: flex;
     align-items: center;
 }
 
-.hotel-tel-mobile,
-.restorant-tel-mobile {
-    display: none;
+.header-container {
+    display: flex;
+    align-items: center;
 }
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-list-contact {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* .restorant-tel-and-pic {
+    display: flex;
+    align-items: center;
+} */
+/* 
+.hotel-tel-and-pic {
+    display: flex;
+    align-items: center;
+} */
+
+
 
 .logo {
     font-family: 'Film P3';
-    padding-left: 85px;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 1;
+    line-height: 1.075;
     letter-spacing: 0.3em;
-    color: var(--light-logo-color)
-}
-
-.restorant-tel-svg,
-.hotel-tel-svg {
-    outline: 1px solid var(--accent-yellow-color)
+    color: var(--light-logo-color);
 }
 
 .link-to-restourant {
-    padding-left: 135px;
-    padding-right: 46px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-yellow-color);
 }
 
-.link-to-hotel {
-    padding-left: 80px;
-    padding-right: 46px;
-}
-
-.header-soc-linc {
-    padding-left: 149px;
-    gap: 23px;
-}
-
-.link-to-restourant,
 .link-to-hotel {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--accent-yellow-color);
 }
@@ -81,25 +86,74 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.2;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
     color: var(--light-logo-color);
 }
 
+.instagram-header,
+.facebook-header,
+.telegram-header,
 .restorant-tel,
-.hotel-tel {
-    fill: var(--accent-yellow-color);
-}
-
 .restorant-tel-mobile,
+.hotel-tel,
 .hotel-tel-mobile {
     fill: var(--accent-yellow-color);
 }
 
-.instagram-header,
-.facebook-header,
-.telegram-header {
-    fill: var(--accent-yellow-color);
+@media screen and (min-width:414px) {
+    .logo {
+        margin-left: 15px;
+    }
+
+    .restorant-tel-and-pic {
+        display: none;
+    }
+
+    .hotel-tel-and-pic {
+        display: none;
+    }
+
+    .header-soc-linc {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .restorant-tel-svg {
+        display: flex;
+        align-items: center;
+    }
+
+    .hotel-tel-svg {
+        display: flex;
+        align-items: center;
+    }
+
+    .restorant-tel-and-pic {
+        display: flex;
+        align-items: center;
+    }
+
+    .hotel-tel-and-pic {
+        display: flex;
+        align-items: center;
+    }
+
+    .restorant-tel-mobile {
+        display: none;
+    }
+
+    .hotel-tel-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .header-soc-linc {
+        display: flex;
+        align-items: center;
+    }
 }
