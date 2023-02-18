@@ -1,5 +1,22 @@
-.section-header {
+/* .section-header {
+    width: 100%;
     display: flex;
+    flex-wrap: nowrap;
+} */
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.header {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .header-title {
@@ -9,7 +26,7 @@
     font-size: 40px;
     line-height: 1;
     letter-spacing: 0.3em;
-    color: var(#ffffff)
+    color: var(--light-logo-color)
 }
 
 .header-restoran,
@@ -20,7 +37,7 @@
     font-size: 20px;
     line-height: 2;
     letter-spacing: 0.02em;
-    color: var(#F3C653);
+    color: var(--accent-yellow-color);
 }
 
 .header-restorant-tel-number,
@@ -33,9 +50,9 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
-    color: var(#ffffff);
+    color: var(--accent-yellow-color);
 }
 
-.restorant-tel{
-    fill: var(#F3C653);
+.restorant-tel {
+    fill: var(--accent-yellow-color);
 }
