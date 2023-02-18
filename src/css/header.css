@@ -135,11 +135,15 @@ ul {
     .restorant-tel-and-pic {
         display: flex;
         align-items: center;
+        outline: 1px solid var(--accent-yellow-color);
+        border-radius: 2px;
     }
 
     .hotel-tel-and-pic {
         display: flex;
         align-items: center;
+        outline: 1px solid var(--accent-yellow-color);
+        border-radius: 2px;
     }
 
     .restorant-tel-mobile {
