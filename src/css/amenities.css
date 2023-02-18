@@ -1,23 +1,8 @@
 /* =====ЗАГАЛЬНІ ЗНАЧЕННЯ====== */
 
-/* body {
-    font-family: 'Montserrat', sans-serif;
-    color: #7A7A7A;
-    background-color: #FFFDEE;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-} */
-
-/* знімає декорацію списків */
-
 .list {
     list-style: none;
 }
-
-Ы
-/* знімає декорацію силок */
 
 .link {
     text-decoration: none;
@@ -30,7 +15,7 @@
     padding-right: 15px;
 }
 
-.box{
+.box-amenities{
     background-color: var(--light-background-color);
 }
 
