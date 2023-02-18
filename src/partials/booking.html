@@ -1,0 +1,92 @@
+<div class="backdrop-booking is-booking-hidden" booking-modal>
+    <div class="modality-booking">
+        <button type="button" class="modality-booking-close" booking-modal-close>
+            <svg class="modality-booking-icon" width="24" height="24">
+                <use href="../Img/icons.svg#icon-222"></use>
+            </svg>
+        </button>
+        <p class="booking-title">ЗАБРОНЮВАТИ СТОЛИК</p>
+
+        <form class="modal-booking">
+            <div class="box-booking">
+                <div class="modal-booking-field">
+                    <label for="user-name" class="input-booking-text"></label>
+                    <div class="input-booking-wrap">
+                        <input type="text" name="user-name" id="user-name" class="modal-booking-input"
+                            placeholder="Ваше ім’я" required>
+
+                        <p class="booking-text">На кого забронювати столик?</p>
+                    </div>
+
+                </div>
+                <div class="modal-booking-field">
+                    <label for="user-phone" class="input-booking-text"></label>
+                    <div class="input-booking-wrap">
+                        <input type="tel" name="user-phone" id="user-phone" class="modal-booking-input"
+                            placeholder="+38 (___) ___-__-__" required>
+
+                        <p class="booking-text">Номер телефону</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal-booking-field">
+                <label for="user-email" class="input-booking-text"></label>
+                <div class="input-booking-wrap">
+                    <input type="email" name="user-room" id="user-room" class="modal-booking-input"
+                        placeholder="Двомісний люкс" required>
+                    <svg class="input-booking-icon" width="24" height="24">
+                        <use href="../Img/icons.svg#icon-ep_arrow"></use>
+                    </svg>
+                    <p class="booking-text">Категорія номеру</p>
+                </div>
+            </div>
+
+            <!-- пробна версія -->
+            <!-- <div class="wrap">
+                        <div class="qw">
+                            <select name="user-room" id="user-room" class="modal-wrap-input">
+                                <option value="x" class="qaz">Одномісний</option>
+                                <option value="xx" selected>Двухмістний</option>
+                                <option value="xxx">Трьохмістний</option>
+                            </select>
+                            <svg class="input-booking-icon" width="24" height="24">
+                                <use href="./img/icons.svg#icon-ep_arrow"></use>
+                            </svg>
+                        </div>
+                    </div> -->
+            <!-- пробна версія -->
+
+            <div class="box-booking">
+                <div class="modal-booking-field">
+                    <label for="user-email" class="input-booking-text"></label>
+                    <div class="input-booking-wrap">
+                        <input type="email" name="user-data" id="user-data" class="modal-booking-input"
+                            placeholder="Сьогодні" required>
+                        <svg class="input-booking-icon" width="24" height="24">
+                            <use href="../Img/icons.svg#icon-ep_arrow"></use>
+                        </svg>
+                        <p class="booking-text">Дата заїзду</p>
+                    </div>
+
+                </div>
+                <div class="modal-booking-field">
+                    <label for="user-email" class="input-booking-text"></label>
+                    <div class="input-booking-wrap">
+                        <input type="email" name="user-data" id="user-data" class="modal-booking-input"
+                            placeholder="Сьогодні" required>
+                        <svg class="input-booking-icon" width="24" height="24">
+                            <use href="../Img/icons.svg#icon-ep_arrow"></use>
+                        </svg>
+                        <p class="booking-text">Дата виїзду</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="booking-btn">
+                <button class="btn-text" type="button">ОФОРМИТИ БРОНЮВАННЯ</button>
+
+            </div>
+        </form>
+    </div>

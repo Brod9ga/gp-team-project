@@ -1,23 +1,8 @@
 /* =====ЗАГАЛЬНІ ЗНАЧЕННЯ====== */
 
-/* body {
-    font-family: 'Montserrat', sans-serif;
-    color: #7A7A7A;
-    background-color: #FFFDEE;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-} */
-
-/* знімає декорацію списків */
-
 .list {
     list-style: none;
 }
-
-Ы
-/* знімає декорацію силок */
 
 .link {
     text-decoration: none;
@@ -30,7 +15,7 @@
     padding-right: 15px;
 }
 
-.box{
+.box-amenities{
     background-color: var(--light-background-color);
 }
 
@@ -118,6 +103,7 @@
 }
 
 .return {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -189,6 +175,15 @@
         flex-direction: column;
         gap: 16px;
     }
+
+    .btn {
+        min-width: 384px;
+    }
+    
+    .return {
+        min-width: 384px;   
+    }
+    
 
 }
 
@@ -268,6 +263,19 @@
         align-items: flex-end;
         margin-right: 24px;
     }
+
+    .btn {
+        font-size: 24px;
+        line-height: 1.2;
+        padding: 18px 38px;
+        min-width: 434px;
+    }
+
+    .return {
+        font-size: 20px;
+        line-height: 1.2;
+        min-width: 434px;
+    }
 }
 
 /* =======АДАПТИВКА ДЛЯ ДЕСКТОПА====== */
@@ -288,5 +296,12 @@
     .info-items {
         gap: 159px;
     }
+
+    .btn {
+        margin-right: 170px;
+    }
     
+    .return{
+        margin-right: 170px;
+    }
 }
