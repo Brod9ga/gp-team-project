@@ -1,3 +1,8 @@
+@font-face {
+    font-family: FilmP3;
+    src: url(../fonts/FilmP3.ttf);
+}
+
 .list {
     list-style: none;
 }
@@ -51,7 +56,7 @@ ul {
 
 
 .logo {
-    font-family: 'Film P3';
+    Font-family: FilmP3;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -61,7 +66,7 @@ ul {
 }
 
 .link-to-restourant {
-    font-family: 'Montserrat';
+    Font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -71,7 +76,7 @@ ul {
 }
 
 .link-to-hotel {
-    font-family: 'Montserrat';
+    Font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -82,7 +87,7 @@ ul {
 
 .header-restorant-tel-number,
 .header-hotel-tel-number {
-    font-family: 'Montserrat';
+    Font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -106,6 +111,7 @@ ul {
 @media screen and (min-width:414px) {
     .logo {
         margin-left: 15px;
+        padding-right: 52px;
     }
 
     .restorant-tel-and-pic {
