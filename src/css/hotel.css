@@ -58,6 +58,7 @@
 
 .hotel-image {
     width: 244px;
+    height: 322px;
     margin-top: 28px;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
@@ -72,7 +73,8 @@
 }
 
 .hotel-image-2 {
-    max-width: 200px;
+    width: 200px;
+    height: 278px;
     margin-left: auto;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
@@ -93,8 +95,9 @@
 .hotel-services {
     display: flex;
     gap: 20px;
-    transform: translateX(-180px);
+    justify-content: right;
     margin-bottom: 20px;
+    margin-right: 69px;
 }
 
 .hotel-services-image {
@@ -137,19 +140,146 @@
 @media screen and (min-width: 320px) {
     .hotel-container {
         max-width: 414px;
-        margin-right: 15px;
-        margin-left: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .hotel-container {
         max-width: 1024px;
+        padding-left: 47px;
+        padding-right: 47px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
     }
+
+    .hotel {
+        padding-bottom: 32px;
+        padding-top: 120px;
+    }
+
+    .hotel-image {
+        position: absolute;
+        width: 400px;
+        height: 524px;
+        margin: 0;
+        z-index: 2;
+        top: -144px;
+        left: 112px;
+    }
+
+    .hotel-title {
+        font-size: 32px;
+        line-height: 1.16;
+
+    }
+
+    .hotel-name {
+        font-size: 64px;
+        line-height: 1.08;
+        margin-bottom: 24px;
+        margin-top: 4px;
+    }
+
+    .hotel-text {
+        font-size: 16px;
+        line-height: 1.25;
+        max-width: 419px;
+    }
+
+    .hotel-text-bottom {
+        font-size: 16px;
+        line-height: 1.25;
+        max-width: 312px;
+        margin: auto;
+        margin-right: 0;
+    }
+
+    .hotel-section {
+        margin-top: 142px;
+        column-gap: 48px;
+        margin-bottom: 0;
+    }
+
+    .hotel-image-2 {
+        width: 350px;
+        height: 500px;
+        margin-left: 0;
+    }
+
+    .hotel-services {
+        margin-right: 0;
+        position: relative;
+        transform: translateX(0);
+        top: -24px;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left;
+    }
+
+    .hotel-services-image {
+        min-width: 194px;
+        max-height: 194px;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
     .hotel-container {
         max-width: 1280px;
+        padding-right: 85px;
+        padding-left: 85px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .hotel {
+        padding-bottom: 50px;
+    }
+
+    .hotel-image {
+        width: 460px;
+        height: 574px;
+        top: -144px;
+        left: 180px;
+    }
+
+    .hotel-text {
+        max-width: 488px;
+    }
+
+    .hotel-section {
+        column-gap: 45px;
+    }
+
+    .hotel-image-2 {
+        width: 460px;
+        height: 574px;
+    }
+
+    .hotel-text-bottom {
+        width: 311px;
+    }
+
+    .hotel-services-image {
+        min-width: 254px;
+        max-height: 254px;
+    }
+
+    .hotel-services {
+        top: -179px;
+    }
+
+    .hotel-text-bottom {
+        margin-bottom: 282px;
+    }
+
+    .hotel-services {
+        margin-bottom: -147px;
     }
 }
