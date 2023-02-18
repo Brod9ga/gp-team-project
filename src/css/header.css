@@ -21,9 +21,10 @@ ul {
     padding-top: 24px;
     padding-bottom: 24px;
     /* outline: 1px solid red; */
-    background-color: black;
+    background-color: transparent;
     display: flex;
     align-items: center;
+    position: absolute;
 }
 
 .header-container{

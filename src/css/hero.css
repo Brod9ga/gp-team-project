@@ -8,9 +8,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 
 .hero-title {
+    margin: 0 auto;
     width: 404px;
     height: 138px;
     left: 438px;
@@ -22,9 +24,12 @@
     line-height: 1.07;
     letter-spacing: 0.3em;
     color: var(--light-logo-color);
+    text-align: center;
+    padding-top: 164px;
 }
 
 .hero-paragraf {
+    margin: 0 auto;
     width: 368px;
     height: 24px;
     left: 456px;
@@ -36,9 +41,11 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--light-logo-color);
+    text-align: center;
 }
 
 .hero-smoll-title {
+    margin: 0 auto;
     width: 356px;
     height: 41px;
     left: 462px;
@@ -50,6 +57,7 @@
     line-height: 41px;
     letter-spacing: 0.05em;
     color: var(--light-logo-color);
+    text-align: center;
 }
 
 .hero-link-text-text {
