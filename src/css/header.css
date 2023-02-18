@@ -17,7 +17,7 @@ ul {
 }
 
 .header {
-    min-width: 320px;
+    min-width: 414px;
     padding-top: 24px;
     padding-bottom: 24px;
     /* outline: 1px solid red; */
@@ -26,7 +26,7 @@ ul {
     align-items: center;
 }
 
-.header-container {
+.header-container{
     display: flex;
     align-items: center;
 }
@@ -108,7 +108,7 @@ ul {
     fill: var(--accent-yellow-color);
 }
 
-@media screen and (min-width:414px) {
+@media screen and (min-width:320px) {
     .logo {
         margin-left: 15px;
         padding-right: 52px;
