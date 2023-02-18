@@ -28,7 +28,7 @@ body {
 
 .suite-text {
   margin-bottom: 8px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', sans-serif;
   font-size: 20px;
   line-height: 1.15;
   color: #b4b4b4;
@@ -55,7 +55,7 @@ body {
 }
 
 .suite-description {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
@@ -77,13 +77,12 @@ body {
 }
 
 .suite-photos-ul {
-  overflow-x: hidden;
+  overflow: visible;
   display: flex;
   column-gap: 16px;
   transform: translateX(-130px);
   width: 404px;
   height: 194px;
-  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 }
 
 .suite-photos-item {
@@ -145,7 +144,7 @@ body {
   justify-content: center;
   border: 2px solid #fffdee;
   border-radius: 25px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
@@ -180,8 +179,6 @@ body {
   .container {
     max-width: none;
     width: 960px;
-    padding: 0px 15px;
-    margin: 0 auto;
     position: relative;
   }
 
@@ -213,7 +210,7 @@ body {
   .suite-description {
     font-size: 16px;
     max-width: 440px;
-    margin-bottom: 0;
+    margin-bottom: 176px;
   }
   .suite-main-photo {
     margin-bottom: 0px;
@@ -221,6 +218,7 @@ body {
     position: absolute;
     top: -32px;
     right: 80px;
+    z-index: 2;
   }
   .wrapper-suite-photos {
     margin-bottom: 20px;
@@ -229,7 +227,6 @@ body {
   .wrapper-photos-arrbtns {
     display: flex;
     flex-direction: column;
-    padding-top: 176px;
     width: fit-content;
   }
 
@@ -237,16 +234,16 @@ body {
     transform: none;
   }
 
+  .wrapper-btns-list {
+    margin-bottom: 0px;
+  }
+
   .arrow-btns {
     justify-content: flex-end;
   }
 
   .accept-btns {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 16px;
     position: absolute;
     top: 581px;
     right: 15px;
@@ -254,3 +251,50 @@ body {
 }
 
 /* Styles for desktop */
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1140px;
+  }
+
+  .suite-wrap {
+    padding-top: 72px;
+  }
+
+  .suite-logo {
+    margin-bottom: 72px;
+  }
+
+  .suite-title {
+    margin-bottom: 24px;
+    font-size: 36px;
+    line-height: 1.14;
+  }
+
+  .suite-description {
+    max-width: 400px;
+    margin-bottom: 188px;
+  }
+
+  .wrapper-suite-photos {
+    margin-bottom: 40px;
+  }
+
+  .suite-photos-ul {
+    height: min-content;
+    column-gap: 40px;
+    width: max-content;
+    height: max-content;
+  }
+  .suite-photos-item {
+    width: max-content;
+    height: max-content;
+  }
+
+  .accept-btns {
+    top: 662px;
+  }
+
+  .suite-main-photo {
+    right: 95px;
+  }
+}
