@@ -1,0 +1,11 @@
+/* Styles for Mob version */
+
+.container {
+  max-width: 414px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.double {
+  background-color: var(--light-background-color);
+}
