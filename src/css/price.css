@@ -11,7 +11,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity var(--transition), visibility var(--transition);
 }
 
 .modality-price {
@@ -20,10 +20,10 @@
     left: 50%;
     width: 414px;
     padding: 0 15px 0 15px;
-    background-color: #FFFDEE;
+    background-color:var(--light-background-color);
     border-radius: 2px;
     transform: translate(-50%, -50%) scaleX(1);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform var(--transition);
 }
 
 .modality-price-close {
@@ -41,12 +41,13 @@
 }
 
 .modality-price-icon {
-    stroke: #000000;
+    stroke: var(--black-text-color);
+    transition: stroke var(--transition);
 }
 
 .modality-price-icon:hover,
 .modality-price-icon:focus {
-    stroke: #F3C653;
+    stroke: var(--accent-yellow-color);
 }
 
 .price-title {
@@ -55,7 +56,7 @@
     font-size: 24px;
     line-height: 1.16;
     letter-spacing: 0.05em;
-    color: #000000;
+    color:var(--black-text-color);
 
     display: flex;
     justify-content: center;
@@ -80,7 +81,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color:var(--brown-text-color);
     margin-bottom: 20px;
 }
 
@@ -91,7 +92,7 @@
 
 .modal-price-input {
     width: 100%;
-    border: 1px solid #C79002;
+    border: 1px solid var(--brown-text-color);
     border-radius: 2px;
     margin-bottom: 6px;
     background-color: transparent;
@@ -106,7 +107,7 @@
 }
 
 .modal-price-input:focus {
-    border-color: #C79002;
+    border-color: var(--brown-text-color);
     outline: none;
 }
 
@@ -134,7 +135,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color:var(--brown-text-color);
 }
 
 .price-btn {
@@ -147,26 +148,26 @@
 }
 
 .btn-price-text {
-    background-color: #000000;
-    border: 1px solid #F3C653;
+    background-color:var(--black-text-color);
+    border: 1px solid var(--accent-yellow-color);
     border-radius: 2px;
 
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 19px;
     line-height: 1.2;
-    color: #FFFFFF;
+    color:var(--white-background-color);
     padding: 20px 43px;
     cursor: pointer;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--transition);
 }
 
 .btn-price-text:hover,
 .btn-price-text:focus {
-    background: #F3C653;
-    border: 1px solid #F3C653;
+    background:var(--accent-yellow-color);
+    border: 1px solid var(--accent-yellow-color);
     border-radius: 2px;
-    color: #000000;
+    color:var(--black-text-color);
 }
 
 /* МОДАЛКА BOOKING ДЛЯ РОЗМІРА ВІД 320 ДО 413 (КАСТОМНА) */
