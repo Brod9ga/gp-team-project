@@ -1,4 +1,4 @@
-// ===============МОДАЛКА ДЛЯ BOOKING
+// ===============МОДАЛКА ДЛЯ BOOKING-ЗАБРОНЮВАТИ НОМЕР
 (() => {
   const refs = {
     openModalBtn: document.querySelector("[booking-modal-open]"),

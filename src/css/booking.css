@@ -113,6 +113,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--brown-text-color);
+    padding-bottom: 20px;
 }
 
 .booking-btn {
@@ -182,6 +183,8 @@
 
     .booking-title {
         margin-bottom: 0px;
+        font-size: 40px;
+        line-height: 1.15;
     }
 
     .modal-booking {
