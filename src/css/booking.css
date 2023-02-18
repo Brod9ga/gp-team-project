@@ -183,6 +183,8 @@
 
     .booking-title {
         margin-bottom: 0px;
+        font-size: 40px;
+        line-height: 1.15;
     }
 
     .modal-booking {
