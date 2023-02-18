@@ -1,58 +1,171 @@
-/* .section-header {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-} */
-.list{
-    list-style: none;
-}
-.link{
-    text-decoration: none;
-}
-.header {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
+@font-face {
+    font-family: FilmP3;
+    src: url(../fonts/FilmP3.ttf);
 }
 
-.header-title {
-    font-family: 'Film P3';
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.header {
+    min-width: 414px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* outline: 1px solid red; */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-list-contact {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* .restorant-tel-and-pic {
+    display: flex;
+    align-items: center;
+} */
+/* 
+.hotel-tel-and-pic {
+    display: flex;
+    align-items: center;
+} */
+
+
+
+.logo {
+    Font-family: FilmP3;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 1;
+    line-height: 1.075;
     letter-spacing: 0.3em;
-    color: var(--light-logo-color)
+    color: var(--light-logo-color);
 }
 
-.header-restoran,
-.header-hotell {
-    font-family: 'Montserrat';
+.link-to-restourant {
+    Font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 2;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-yellow-color);
+}
+
+.link-to-hotel {
+    Font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--accent-yellow-color);
 }
 
 .header-restorant-tel-number,
 .header-hotel-tel-number {
-    font-family: 'Montserrat';
+    Font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.2;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
+    color: var(--light-logo-color);
 }
 
-.restorant-tel {
+.instagram-header,
+.facebook-header,
+.telegram-header,
+.restorant-tel,
+.restorant-tel-mobile,
+.hotel-tel,
+.hotel-tel-mobile {
     fill: var(--accent-yellow-color);
+}
+
+@media screen and (min-width:320px) {
+    .logo {
+        margin-left: 15px;
+        padding-right: 52px;
+    }
+
+    .restorant-tel-and-pic {
+        display: none;
+    }
+
+    .hotel-tel-and-pic {
+        display: none;
+    }
+
+    .header-soc-linc {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .restorant-tel-svg {
+        display: flex;
+        align-items: center;
+    }
+
+    .hotel-tel-svg {
+        display: flex;
+        align-items: center;
+    }
+
+    .restorant-tel-and-pic {
+        display: flex;
+        align-items: center;
+        outline: 1px solid var(--accent-yellow-color);
+        border-radius: 2px;
+    }
+
+    .hotel-tel-and-pic {
+        display: flex;
+        align-items: center;
+        outline: 1px solid var(--accent-yellow-color);
+        border-radius: 2px;
+    }
+
+    .restorant-tel-mobile {
+        display: none;
+    }
+
+    .hotel-tel-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .header-soc-linc {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+    }
 }
