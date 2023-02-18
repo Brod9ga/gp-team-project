@@ -24,6 +24,8 @@
 @import url('suite.css');
 @import url('table.css');
 @import url('triple.css');
+@import url('footer.css');
+
 
 :root { 
   --white-background-color: #ffffff;
