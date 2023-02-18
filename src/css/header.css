@@ -1,0 +1,41 @@
+.section-header {
+    display: flex;
+}
+
+.header-title {
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 0.3em;
+    color: var(#ffffff)
+}
+
+.header-restoran,
+.header-hotell {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 0.02em;
+    color: var(#F3C653);
+}
+
+.header-restorant-tel-number,
+.header-hotel-tel-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: var(#ffffff);
+}
+
+.restorant-tel{
+    fill: var(#F3C653);
+}
