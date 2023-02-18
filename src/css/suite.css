@@ -1,4 +1,7 @@
 /* Styles for Mob version */
+picture {
+  display: block;
+}
 
 body {
   margin: 0;
@@ -64,7 +67,6 @@ body {
 
 .suite-main-photo {
   margin-bottom: 32px;
-  background-color: #dadada;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
@@ -78,11 +80,10 @@ body {
   overflow-x: hidden;
   display: flex;
   column-gap: 16px;
-  transform: translateX(-115px);
+  transform: translateX(-130px);
   width: 404px;
   height: 194px;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-  border-radius: 2px;
 }
 
 .suite-photos-item {
@@ -113,10 +114,11 @@ body {
   padding: 0px;
   margin: 0px;
   border: none;
-  background-color: var(--light-background-color);
+  visibility: hidden;
 }
 
 .arrow-btn-icon {
+  visibility: visible;
   fill: #000000;
   transition: fill 250ms linear;
 }
@@ -163,6 +165,7 @@ body {
 @media screen and (min-width: 320px) and (max-width: 414px) {
   .suite-main-photo {
     margin-left: auto;
+    width: 244px;
   }
 }
 
@@ -191,26 +194,17 @@ body {
     padding-bottom: 40px;
   }
 
-  .uppercase {
-    text-transform: uppercase;
-  }
-
   .suite-text {
-    font-family: 'Times New Roman';
     font-size: 32px;
-    line-height: 1.15;
-    color: #b4b4b4;
     margin-bottom: 4px;
   }
 
   .suite-logo {
     font-size: 64px;
-    line-height: 1.08;
     margin-bottom: 62px;
   }
 
   .suite-title {
-    font-family: 'Times New Roman', sans-serif;
     font-size: 30px;
     line-height: 1.13;
     margin-bottom: 16px;
@@ -218,7 +212,6 @@ body {
 
   .suite-description {
     font-size: 16px;
-    line-height: 1.25;
     max-width: 440px;
     margin-bottom: 0;
   }
@@ -227,51 +220,37 @@ body {
     margin-left: 0px;
     position: absolute;
     top: -32px;
-    right: 112px;
-    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
-    border-radius: 0px;
+    right: 80px;
   }
   .wrapper-suite-photos {
     margin-bottom: 20px;
   }
 
+  .wrapper-photos-arrbtns {
+    display: flex;
+    flex-direction: column;
+    padding-top: 176px;
+    width: fit-content;
+  }
+
   .suite-photos-ul {
-    overflow-x: hidden;
-    display: flex;
-    column-gap: 16px;
-    transform: translateX(-115px);
-    width: 404px;
+    transform: none;
   }
 
-  .suite-photos-item {
-    width: 194px;
-    height: 194px;
-  }
-  .wrapper-btns-list {
-    margin-bottom: 20px;
-  }
   .arrow-btns {
-    display: flex;
-    column-gap: 32px;
-  }
-
-  .arrow-btn {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-    margin: 0px;
-    border: none;
-    background-color: var(--light-background-color);
+    justify-content: flex-end;
   }
 
   .accept-btns {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 16px;
+    position: absolute;
+    top: 581px;
+    right: 15px;
   }
 }
+
+/* Styles for desktop */
