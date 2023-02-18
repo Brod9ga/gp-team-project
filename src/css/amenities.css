@@ -187,7 +187,7 @@
 
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 413px) {
+@media screen and (min-width: 320px) and (max-width: 413px) {
     .subject {
         font-size: 16px;
         line-height: 1.25;
@@ -216,13 +216,15 @@
     .btn {
         font-size: 13px;
         line-height: 1.1;
+        min-width: 288px;
     }
 
     .return {
         font-size: 13px;
         line-height: 1.1;
+        min-width: 288px;
     }
-} */
+}
 
 /* ========АДАПТИВКА ДЛЯ ТАБЛЕТА ============*/
 
@@ -261,7 +263,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-right: 24px;
     }
 
     .btn {
