@@ -1,0 +1,218 @@
+/* МОДАЛКА BOOKING ДЛЯ МОБІЛОК */
+.is-booking-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.backdrop-booking {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modality-booking {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 414px;
+    padding: 0 15px 0 15px;
+    background-color:var(--light-background-color);
+    border-radius: 2px;
+    transform: translate(-50%, -50%) scaleX(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.box-booking {
+    display: flex;
+    flex-direction: column;
+}
+
+.modality-booking-close {
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-right: 1px;
+    margin-bottom: 6px;
+    border: none;
+    background-color: transparent;
+}
+
+.modality-booking-icon {
+    stroke:var(--black-text-color);
+    transition: stroke var(--transition);
+}
+
+.modality-booking-icon:hover,
+.modality-booking-icon:focus {
+    stroke:var(--accent-yellow-color);
+}
+
+.booking-title {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color:var(--black-text-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.modal-booking-input {
+    width: 100%;
+    border: 1px solid var(--brown-text-color);
+    border-radius: 2px;
+    margin-bottom: 6px;
+    background-color: transparent;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #808080;
+    padding: 16px 0 16px 12px;
+}
+
+
+.modal-booking-input:focus {
+    border-color:var(--brown-text-color);
+    outline: none;
+}
+
+.input-booking-wrap {
+    position: relative;
+}
+
+.input-booking-icon {
+    fill:var(--brown-text-color);
+    position: absolute;
+    right: 20px;
+    top: 20%;
+    transform: translate(-50%);
+}
+
+.booking-text {
+    margin-bottom: 20px;
+    margin-left: 12px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--brown-text-color);
+}
+
+.booking-btn {
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-text {
+    background-color:var(--black-text-color);
+    border: 1px solid var(--accent-yellow-color);
+    border-radius: 2px;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.2;
+    color:var(--light-logo-color);
+    padding: 20px 43px;
+    cursor: pointer;
+    transition: color var(--transition), border-color var(--transition), background-color var(--transition);
+}
+
+.btn-text:hover,
+.btn-text:focus {
+    background:var(--accent-yellow-color);
+    border: 1px solid var(--accent-yellow-color);
+    border-radius: 2px;
+    color:var(--black-text-color);
+}
+
+/* МОДАЛКА BOOKING ДЛЯ РОЗМІРА ВІД 320 ДО 413 (КАСТОМНА) */
+
+@media screen and (min-width: 320px) and (max-width: 413px) {
+
+    .modality-booking {
+        width: 320px;
+    }
+
+    .booking-title {
+        font-size: 20px;
+    }
+
+    .modal-booking-input {
+        font-size: 15px;
+    }
+
+    .btn-text {
+        font-size: 13px;
+    }
+
+}
+
+/* МОДАЛКА BOOKING ДЛЯ ТАБЛЕТА */
+
+@media screen and (min-width: 1024px) {
+
+    /*========== модалка ===============*/
+
+    .modality-booking {
+        width: 712px;
+    }
+
+    .booking-title {
+        margin-bottom: 0px;
+    }
+
+    .modal-booking {
+        padding-top: 36px;
+        padding-right: 45px;
+        padding-left: 45px;
+        padding-bottom: 60px;
+    }
+
+    .box-booking {
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .modal-booking-input {
+        width: 288px;
+    }
+
+    .modal-booking-field {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .booking-btn {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .btn-text {
+        font-size: 23px;
+        padding: 18px 123px;
+    }
+}
