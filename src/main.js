@@ -13,3 +13,6 @@
     refs.modal.classList.toggle("is-booking-hidden");
   }
 })();
+
+// ============================MODAL PAGE BOOK TABLE 
+
