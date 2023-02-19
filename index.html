@@ -553,7 +553,7 @@
                 <div class="modal-booking-field">
                     <label for="user-name" class="input-booking-text"></label>
                     <div class="input-booking-wrap">
-                        <input type="text" name="user-name" id="user-name" class="modal-booking-input"
+                        <input type="text" name="user-name" id="user-name" class="modal-booking-input" pattern="[A-Za-zА-Яа-яґҐЁёІіЇїЄє'’ʼ\s-]{2,20}{2,50}"
                             placeholder="Ваше ім’я" required>
 
                         <p class="booking-text">На кого забронювати номер?</p>
@@ -563,7 +563,7 @@
                 <div class="modal-booking-field">
                     <label for="user-phone" class="input-booking-text"></label>
                     <div class="input-booking-wrap">
-                        <input type="tel" name="user-phone" id="user-phone" class="modal-booking-input"
+                        <input type="tel" name="user-phone" id="user-phone" class="modal-booking-input" pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                             placeholder="+38 (___) ___-__-__" required>
 
                         <p class="booking-text">Номер телефону</p>
