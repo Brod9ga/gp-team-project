@@ -3,6 +3,29 @@
     src: url(../fonts/FilmP3.ttf);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.header-container,
+.sec-container {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 .list {
     list-style: none;
 }
@@ -11,186 +34,151 @@
     text-decoration: none;
 }
 
-ul {
-    margin: 0;
-    padding-left: 0;
-}
-
-
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
     background-color: transparent;
-    display: flex;
-    align-items: center;
     position: absolute;
     width: 100%;
 }
 
-
 .header-container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    align-items: baseline;
 }
 
 .header-navigation {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
-
-.header-list-contact {
-    display: flex;
-    align-items: center;
-}
-
-
-
-/* .restorant-tel-and-pic {
-    display: flex;
-    align-items: center;
-} */
-/* 
-.hotel-tel-and-pic {
-    display: flex;
-    align-items: center;
-} */
-
-
 
 .logo {
     Font-family: FilmP3;
-    font-style: normal;
+    Font-weight: 700;
     font-weight: 700;
     font-size: 40px;
     line-height: 1.075;
     letter-spacing: 0.3em;
     color: var(--light-logo-color);
+    margin-right: 135px;
 }
 
-.link-to-restourant {
-    Font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
-}
-
-.link-to-hotel {
-    Font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
-}
-
-.header-restorant-tel-number,
-.header-hotel-tel-number {
-    Font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.2;
+.header-list {
     display: flex;
     align-items: center;
-    letter-spacing: 0.02em;
-    color: var(--light-logo-color);
 }
 
-.instagram-header,
-.facebook-header,
-.telegram-header,
-.restorant-tel,
-.restorant-tel-mobile,
-.hotel-tel,
-.hotel-tel-mobile {
+.header-item-phone {
     fill: var(--accent-yellow-color);
 }
 
+.header-item-restorant {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-yellow-color);
+    margin-right: 40px;
+}
+
+.header-item-hotel {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-yellow-color);
+    margin-right: 40px;
+}
+
+.restorant-tel-svg {
+    display: flex;
+    align-items: center;
+    fill: var(--accent-yellow-color);
+    outline: 1px solid var(--accent-yellow-color);
+    border-radius: 2px;
+    margin-right: 75px;
+    padding: 6px;
+}
+
+.header-restorant-tel-number {
+    width: 120px;
+    color: var(--light-logo-color);
+}
+
+.header-item:last-child {
+    margin-right: 0;
+}
+
+/* .header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F3C653;
+    fill: #F3C653;
+} */
+
+.header-link:hover,
+.header-link:focus {
+    color: #404bbf;
+}
+
+
+.header-list-contact {
+    display: flex;
+}
+
+.header-list-contac-item-one {
+    margin-right: 23px;
+}
+
+.instagram-header {
+    fill: #F3C653;
+}
+
+
+
+
+
+
+
 @media screen and (min-width:414px) {
-    .conteiner {
-        width: 379px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .header {
-        padding-left: 15px;
-    }
-
-    .logo {}
-
-    .restorant-tel-and-pic {
-        display: none;
-    }
-
-    .hotel-tel-and-pic {
-        display: none;
-    }
-
-    .header-soc-linc {
+    .header-list-contact {
         display: none;
     }
 
     .logo {
-        margin-right: 52px;
+        margin-right: 48px;
+    }
+
+    .header-item {
+        display: none;
+    }
+
+    .header-item-phone {
+        display: block;
+        margin-right: 19px;
+    }
+
+    .header-item-restorant {
+        margin-right: 8px;
+    }
+
+    .header-item-hotel {
+        margin-right: 8px;
     }
 
 }
 
 @media screen and (min-width:1024px) {
-    .conteiner {
-        width: 930px;
-        height: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-    }
-
-    .header {
-        padding-left: 50px;
-    }
-
-    .logo {
-        margin-right: 207px;
-    }
-
-    .restorant-tel-svg {
-        display: flex;
-        align-items: center;
-    }
-
-    .hotel-tel-svg {
-        display: flex;
-        align-items: center;
-    }
-
-    .restorant-tel-and-pic {
-        display: flex;
-        align-items: center;
-        outline: 1px solid var(--accent-yellow-color);
-        border-radius: 2px;
-    }
-
-    .hotel-tel-and-pic {
-        display: flex;
-        align-items: center;
-        outline: 1px solid var(--accent-yellow-color);
-        border-radius: 2px;
-    }
-
-    .restorant-tel-mobile {
-        display: none;
-    }
-
-    .hotel-tel-mobile {
+    .header-list-contact {
         display: none;
     }
 
@@ -198,73 +186,29 @@ ul {
         margin-right: 207px;
     }
 
-    .link-to-restourant {
-        margin-right: 40px;
+    .header-item {
+        display: flex;
     }
 
-    .restorant-tel-and-pic {
-        margin-right: 50px;
-    }
-
-    .header-restorant-tel-number,
-    .header-hotel-tel-number {
-        width: max-content;
-    }
-
-    .hotel-tel-svg,
-    .restorant-tel-svg {
-        margin: 6px;
-    }
-
-    .restorant-tel-and-pic {
-        margin-right: 50px;
-    }
-
-    .link-to-hotel {
-        margin-right: 40px;
+    .header-item-phone {
+        display: none;
     }
 }
 
 @media screen and (min-width:1280px) {
-    .header-soc-linc {
+    .header-list-contact {
         display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 23px;
     }
-
-    .header {
-        padding-left: 85px;
-    }
-
 
     .logo {
         margin-right: 135px;
     }
 
-    .link-to-restourant {
-        margin-right: 46px;
+    .header-item {
+        display: flex;
     }
 
-    .link-to-hotel {
-        margin-right: 46px;
-    }
-
-    .restorant-tel-and-pic {
-        margin-right: 50px;
-    }
-
-    .hotel-tel-and-pic {
-        margin-right: 100px;
-    }
-
-    .header-restorant-tel-number,
-    .header-hotel-tel-number {
-        width: max-content;
-    }
-
-    .hotel-tel-svg,
-    .restorant-tel-svg {
-        margin: 6px;
+    .header-item-phone {
+        display: none;
     }
 }
