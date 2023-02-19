@@ -8,11 +8,11 @@ body {
   overflow-x: hidden;
 }
 
-.container {
+/* .container {
   max-width: 414px;
   padding: 0px 15px;
   margin: 0 auto;
-}
+} */
 
 .suite {
   background-color: var(--light-background-color);
@@ -35,7 +35,7 @@ body {
 }
 
 .suite-logo {
-  Font-family: FilmP3;
+  font-family: FilmP3;
   font-weight: 700;
   font-size: 40px;
   line-height: 1.07;
@@ -176,11 +176,11 @@ body {
 
 /* Styles for tablet */
 @media screen and (min-width: 1024px) {
-  .container {
+  /* .container {
     max-width: none;
     width: 960px;
     position: relative;
-  }
+  } */
 
   .suite {
     background-color: var(--light-background-color);
@@ -252,9 +252,9 @@ body {
 
 /* Styles for desktop */
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     width: 1140px;
-  }
+  } */
 
   .suite-wrap {
     padding-top: 72px;

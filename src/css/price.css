@@ -109,10 +109,12 @@
 .modal-price-input:focus,
 .modal-price-input:active {
     outline: none;
+    border-color: var(--accent-yellow-color);
 }
 
 .input-price-icon {
     display: none;
+    border-color: var(--accent-yellow-color);
 }
 
 /* .input-price-wrap {
@@ -145,6 +147,27 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.modal-price-desc {
+    width: 100%;
+    border: 1px solid #C79002;
+    border-radius: 2px;
+    margin-bottom: 6px;
+    background-color: transparent;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #808080;
+    padding: 15px 0 15px 13px;
+
+    appearance: none;
+    overflow: hidden;
+    background: url('../Img/SVG/ep_arrow.svg') no-repeat right;
+    background-position-x: calc(100% - 20px);
 }
 
 .btn-price-text {
@@ -198,6 +221,11 @@
         font-size: 15px;
     }
 
+    .modal-price-desc {
+        font-size: 15px;
+        padding: 10px 0 10px 8px;
+    }
+
     .btn-price-text {
         font-size: 13px;
     }
@@ -234,6 +262,10 @@
     .box-price {
         flex-direction: row;
         gap: 16px;
+    }
+
+    .modal-price-desc {
+        width: 288px;
     }
 
     .modal-price-input {
