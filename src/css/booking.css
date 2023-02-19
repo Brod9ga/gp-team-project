@@ -79,7 +79,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     letter-spacing: 0.05em;
     color: #808080;
     padding: 16px 0 16px 12px;
@@ -91,11 +91,11 @@
     border-radius: 2px;
     margin-bottom: 6px;
     background-color: transparent;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     letter-spacing: 0.05em;
     color: #808080;
     padding: 16px 0 16px 12px;
@@ -106,14 +106,20 @@
     background-position-x: calc(100% - 20px);
 }
 
+/* .modal-booking-desc:focus{
+    border-color:var(--accent-yellow-color);
+} */
+
 .modal-booking-desc:focus,
 .modal-booking-desc:active {
     outline: none;
+    border-color: var(--accent-yellow-color);
 }
 
 .modal-booking-input:focus,
 .modal-booking-input:active {
     outline: none;
+    border-color: var(--accent-yellow-color);
 }
 
 .input-booking-wrap {
