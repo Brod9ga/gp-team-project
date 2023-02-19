@@ -86,8 +86,8 @@
 }
 
 
-.modal-booking-input:focus {
-    border-color:var(--brown-text-color);
+.modal-booking-input:focus,
+.modal-booking-input:active {
     outline: none;
 }
 

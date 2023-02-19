@@ -106,8 +106,8 @@
     padding: 15px 0 15px 13px;
 }
 
-.modal-price-input:focus {
-    border-color: var(--brown-text-color);
+.modal-price-input:focus,
+.modal-price-input:active {
     outline: none;
 }
 
