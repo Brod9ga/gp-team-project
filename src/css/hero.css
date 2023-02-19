@@ -1,6 +1,14 @@
+@font-face {
+    font-family: FilmP3;
+    src: url(../fonts/FilmP3.ttf);
+}
+
 .hero-section {
+    max-width: 1440px;
+    height: 720px;
     margin-left: auto;
     margin-right: auto;
+    background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
         url(../Img/Homepage/Homepage-hero1-1x.jpg);
     background-repeat: no-repeat;
@@ -8,74 +16,59 @@
     background-size: cover;
 }
 
-.conteiner {
-    max-width: 1440px;
+.hero-conteiner {
     height: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+.hero-prev {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-
-.hero-link-text-text {
-    font-family: Montserrat;
+.hero-title {
+    position: absolute;
+    width: 404px;
+    height: 138px;
+    left: 460px;
+    top: 164px;
+    Font-family: FilmP3;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.01em;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 138px;
+    letter-spacing: 0.3em;
     color: var(--light-logo-color);
 }
 
-.pin-tu-map {
-    fill: var(--accent-yellow-color);
-}
-
-.hero-link-tu-map,
-.hero-link-text {
-    display: flex;
-    align-items: center;
-}
-
-.hero-link-tu-map {
+.hero-paragraf {
     position: absolute;
-    width: 233px;
-    height: 40px;
-    left: 44px;
-    top: 560px;
+    width: 368px;
+    height: 24px;
+    left: 456px;
+    top: 334px;
+    Font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--light-logo-color);
 }
 
-.hero-buttums {
-    display: flex;
-    align-items: center;
-}
-
-.hero-buttum-tible {
+.hero-smoll-title {
     position: absolute;
-    height: 20px;
-    left: 700px;
-    top: 550px;
-    font-family: 'Montserrat';
+    height: 41px;
+    left: 462px;
+    top: 422px;
+    font-family: Times New Roman;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
-}
-
-.hero-buttum-number {
-    position: absolute;
-    height: 20px;
-    left: 950px;
-    top: 550px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    color: var(--light-logo-color);
 }
