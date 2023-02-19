@@ -109,7 +109,7 @@ ul {
     fill: var(--accent-yellow-color);
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:414px) {
     .conteiner {
         width: 379px;
         margin-left: auto;
@@ -129,6 +129,11 @@ ul {
     .header-soc-linc {
         display: none;
     }
+
+    .logo {
+        margin-right: 52px;
+    }
+    
 }
 
 @media screen and (min-width:1024px) {
@@ -173,11 +178,42 @@ ul {
     .hotel-tel-mobile {
         display: none;
     }
+
+    .logo {
+        margin-right: 207px;
+    }
+
+    .link-to-restourant {
+        margin-right: 40px;
+    }
+
+    .restorant-tel-and-pic {
+        margin-right: 50px;
+    }
+
+    .header-restorant-tel-number,
+    .header-hotel-tel-number {
+        width: max-content;
+    }
+
+    .hotel-tel-svg,
+    .restorant-tel-svg {
+        margin: 6px;
+    }
+
+    .restorant-tel-and-pic {
+        margin-right: 50px;
+    }
+
+    .link-to-hotel {
+        margin-right: 40px;
+    }
 }
 
 @media screen and (min-width:1280px) {
     .header-soc-linc {
         display: flex;
+        justify-content: flex-end;
         align-items: center;
         gap: 23px;
     }
@@ -200,5 +236,21 @@ ul {
         margin-right: 46px;
     }
 
+    .restorant-tel-and-pic {
+        margin-right: 50px;
+    }
 
+    .hotel-tel-and-pic {
+        margin-right: 100px;
+    }
+
+    .header-restorant-tel-number,
+    .header-hotel-tel-number {
+        width: max-content;
+    }
+
+    .hotel-tel-svg,
+    .restorant-tel-svg {
+        margin: 6px;
+    }
 }
