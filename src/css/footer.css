@@ -3,18 +3,19 @@
     src: url(../fonts/FilmP3.ttf);
   }
 
-.container{
+/* .container{
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .footer .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
+  grid-area: ;
+ gap: 65px;
 }
 
 
