@@ -109,10 +109,12 @@
 .modal-price-input:focus,
 .modal-price-input:active {
     outline: none;
+    border-color: var(--accent-yellow-color);
 }
 
 .input-price-icon {
     display: none;
+    border-color: var(--accent-yellow-color);
 }
 
 /* .input-price-wrap {
