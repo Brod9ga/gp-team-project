@@ -151,8 +151,6 @@ ul {
     width: 285px;
     outline: 1px solid var(--accent-yellow-color);
     padding: 15px;
-    margin-left: 85px;
-    margin-top: 137px;
 }
 
 @media screen and (min-width:414px) {
@@ -169,6 +167,14 @@ ul {
         display: flex;
         flex-direction: column;
         gap: 24px;
+    }
+
+    .hero-link-text {
+        position: absolute;
+        width: 210px;
+        height: 47px;
+        left: 189px;
+        top: 64px;
     }
 }
 
@@ -191,6 +197,14 @@ ul {
         display: flex;
         flex-direction: row;
     }
+
+    .hero-link-text {
+        position: absolute;
+        width: 285px;
+        height: 56px;
+        left: 47px;
+        top: 600px;
+    }
 }
 
 @media screen and (min-width:1280px) {
@@ -206,5 +220,14 @@ ul {
     .hero-buttums-list {
         display: flex;
         flex-direction: row;
+        margin-top: 144px;
+    }
+
+    .hero-link-text {
+        position: absolute;
+        width: 285px;
+        height: 56px;
+        left: 85px;
+        top: 600px;
     }
 }
