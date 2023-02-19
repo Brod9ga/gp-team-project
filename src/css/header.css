@@ -26,7 +26,11 @@ ul {
     position: absolute;
 }
 
+
 .header-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -116,6 +120,10 @@ ul {
         margin-right: auto;
     }
 
+    .header {
+        padding-left: 15px;
+    }
+
     .logo {}
 
     .restorant-tel-and-pic {
@@ -133,14 +141,20 @@ ul {
     .logo {
         margin-right: 52px;
     }
-    
+
 }
 
 @media screen and (min-width:1024px) {
     .conteiner {
         width: 930px;
+        height: 100px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 0;
+    }
+
+    .header {
+        padding-left: 50px;
     }
 
     .logo {
@@ -218,7 +232,10 @@ ul {
         gap: 23px;
     }
 
-    
+    .header {
+        padding-left: 85px;
+    }
+
 
     .logo {
         margin-right: 135px;
