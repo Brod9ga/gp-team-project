@@ -3,6 +3,36 @@
     src: url(../fonts/FilmP3.ttf);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.sec-container {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
 .first-sec {
     max-width: 1440px;
     height: 720px;
@@ -10,7 +40,7 @@
     margin-right: auto;
     background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-        url(../Img/Homepage/Homepage-hero1-1x.jpg);
+        url(../Img/Homepage-mob/Homepage-hero-mob1-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,10 +48,186 @@
 
 .first-sec-text {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap: 40px;
-    align-content: center;
     align-items: center;
-    color: aqua;
+    justify-content: space-between;
+}
+
+.first-sec-title {
+    margin-top: 164px;
+    font-family: FilmP3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 1.078;
+    letter-spacing: 0.3em;
+    color: var(--light-logo-color);
+}
+
+.first-sec-paragraf {
+    margin-top: 32px;
+    Font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--light-logo-color);
+}
+
+.first-sec-paragraf-two {
+    margin-top: 64px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    color: var(--light-logo-color);
+
+}
+
+.instagram,
+.facebook,
+.telegram,
+.pin-tu-map {
+    fill: var(--accent-yellow-color);
+
+}
+
+.hero-link-text {
+    display: flex;
+    align-items: center;
+}
+
+.hero-link-text-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    color: #E5E5E5;
+}
+
+.hero-buttums {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-buttums-list {
+    display: flex;
+    gap: 60px;
+}
+
+.hero-buttum-tible {
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--accent-yellow-color);
+}
+
+.hero-buttum-number {
+    margin-right: 85px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--accent-yellow-color);
+}
+
+.hero-link-text {
+    width: 285px;
+    outline: 1px solid var(--accent-yellow-color);
+    padding: 15px;
+}
+
+@media screen and (min-width:414px) {
+    .hero-soc-link {
+        display: flex;
+    }
+
+    .hero-soc-list {
+        display: flex;
+        gap: 23px;
+    }
+
+    .hero-buttums-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .hero-link-text {
+        position: absolute;
+        width: 210px;
+        height: 47px;
+        left: 189px;
+        top: 64px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .first-sec {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+            url(../Img/Homepage-tablet/Homepage-hero-tablet1-1x.jpg);
+    }
+
+    .hero-soc-link {
+        display: flex;
+    }
+
+    .hero-soc-list {
+        display: flex;
+        gap: 23px;
+    }
+
+    .hero-buttums-list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero-link-text {
+        position: absolute;
+        width: 285px;
+        height: 56px;
+        left: 47px;
+        top: 600px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .first-sec {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+            url(../Img/Homepage/Homepage-hero1-1x.jpg);
+    }
+
+    .hero-soc-link {
+        display: none;
+    }
+
+    .hero-buttums-list {
+        display: flex;
+        flex-direction: row;
+        margin-top: 144px;
+    }
+
+    .hero-link-text {
+        position: absolute;
+        width: 285px;
+        height: 56px;
+        left: 85px;
+        top: 600px;
+    }
 }
