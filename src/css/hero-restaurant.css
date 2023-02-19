@@ -1,0 +1,13 @@
+.hero-restorant-section {
+    max-width: 1440px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url(../Img/Restaurant/restaurant-hero1-1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
