@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  grid-area: ;
+  
  gap: 65px;
 }
 
@@ -26,9 +26,7 @@
   background-color: var(--footer-background-color);
 }
 
-.footer-left{
 
-}
 
 .logo-footer {
  Font-family: FilmP3;
@@ -133,8 +131,9 @@
 /* ---------TABLET----------- */
 
 @media screen and (min-width: 1024px){
-  .container{
+  .footer .container{
       width: 744px;
+      gap: 0px;
     }
 
     .footer {
@@ -197,6 +196,7 @@
       Font-size: 16px;
       Line-height: 1.22;
       Letter-spacing: 2%;
+      margin-left: 12px;
 
 
       color: var(--accent-yellow-color);
