@@ -26,7 +26,6 @@
 @import url('triple.css');
 @import url('footer.css');
 
-
 :root {
   --white-background-color: #ffffff;
   --light-background-color: #fffdee;
@@ -43,18 +42,17 @@
 }
 
 .conteiner {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0px 15px;
 }
 
- @media screen and (min-width: 1024px){
-    .conteiner{
-      padding-left: 47px;
-      padding-right: 47px;
-    }
+@media screen and (min-width: 1024px) {
+  .conteiner {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
 }
-@media screen and (min-width: 1200px){
-  .conteiner{
+@media screen and (min-width: 1280px) {
+  .conteiner {
     padding-left: 85px;
     padding-right: 85px;
   }

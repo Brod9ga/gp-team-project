@@ -1,0 +1,310 @@
+.apartments {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+     rgba(0, 0, 0, 0.7)), 
+     url(../Img/Homepage-mob/Homepage-hero-mob3-1x.jpg);
+     padding-top: 24px;
+     padding-bottom: 40px;
+     background-repeat: no-repeat;
+    max-width: 414px;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.apartments-name {
+    font-family: 'FilmP3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.apartments-name-spacing {
+    letter-spacing: 0;
+}
+
+.apartments-name-2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-left: 45px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.apartments-text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #BABABA;
+    margin-left: 32px;
+    width: 243px;
+}
+
+.apartments-services {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    margin-bottom: 16px;
+    margin-top: 48px;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.apartments-services-image3 {
+    min-width: 274px;
+    max-width: 274px;
+    height: 270px;
+    border-radius: 2px;
+}
+
+.apartments-services-image1 {
+    width: 274px;
+    height: 270px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.apartments-services-image2 {
+    max-width: 162px;
+    min-width: 162px;
+    height: 270px;
+    border-radius: 2px;
+}
+
+.apartments-arrow-btns {
+    display: flex;
+    justify-content: right;
+    column-gap: 32px;
+    margin-right: 40px;
+    margin-bottom: 32px;
+}
+  
+.apartments-arrow-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    visibility: hidden;
+}
+
+.apartments-arrow-btn-icon {
+    visibility: visible;
+    fill: #FFFFFF;
+    transition: fill 250ms linear;
+}
+  
+.apartments-arrow-btn-icon:hover,
+.apartments-arrow-btn-icon:focus,
+.apartments-arrow-btn-icon:active {
+    fill: var(--accent-yellow-color);
+}
+
+.apartments-accept-btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+}
+  
+.apartments-accept-btn {
+    color: var(--accent-yellow-color);
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fffdee;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    width: 236px;
+    height: 48px;
+    transition: background-color 250ms linear, color 250ms linear;
+}
+  
+.apartments-accept-btn:hover,
+.apartments-accept-btn:focus,
+.apartments-accept-btn:active {
+    fill: var(--accent-yellow-color);
+}
+
+.apartments-is-hidden {
+    
+}
+
+@media screen and (min-width: 320px) {
+    .apartments-container {
+        max-width: 414px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .apartments-container {
+        max-width: 1024px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .apartments {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+         rgba(0, 0, 0, 0.7)), 
+         url(../Img/Homepage-tablet/Homepage-hero-tablet3-1x.jpg);
+         padding-top: 48px;
+         padding-bottom: 40px;
+        max-width: 1024px;
+        height: 620px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .apartments-name {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 1.08;
+        margin-right: 278px;
+        justify-content: right;
+    }
+
+    .apartments-name-2 {
+        margin-right: 278px;
+        padding-left: 0;
+        justify-content: right;
+        font-size: 24px;
+        line-height: 1.21;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    .apartments-text {
+        width: 549px;
+        margin-left: 197px;
+        font-size: 16px;
+        line-height: 1.25;
+        font-weight: 600;
+    }
+
+    .apartments-services {
+        position: relative;
+        column-gap: 34px;
+        margin-bottom: 24px;
+    }
+
+    .apartments-services-image1 {
+        width: 162px;
+        height: 270px;
+        object-fit: cover;
+    }
+
+    .apartments-services-image2 {
+        max-width: 162px;
+        min-width: 162px;
+        height: 270px;
+    }
+
+    .apartments-services-image3 {
+        max-width: 270px;
+        height: 270px;
+    }
+
+    .apartments-services {
+        justify-content: left;
+        margin-left: 47px;
+    }
+
+    .apartments-arrow-btns {
+        margin-right: 312px;
+        margin-bottom: 40px;
+    }
+
+    .apartments-accept-btns {
+        position: relative;
+        justify-content: left;
+        margin-left: 741px;
+        top: -212px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .apartments-container {
+        max-width: 1280px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .apartments {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+         rgba(0, 0, 0, 0.7)), 
+         url(../Img/Homepage/Homepage-hero3-1x.jpg);
+         padding-top: 48px;
+         padding-bottom: 40px;
+        max-width: 1280px;
+        height: 620px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .apartments-name {
+        margin-right: 338px;
+    }
+
+    .apartments-name-2 {
+        margin-right: 338px;
+    }
+
+    .apartments-text {
+        width: 595px;
+        margin-left: 347px;
+    }
+
+    .apartments-services {
+        column-gap: 86px;
+        flex-direction: row-reverse;
+        margin-top: 40px;
+    }
+
+    .apartments-services-image1 {
+        min-width: 270px;
+        max-width: 270px;
+        height: 270px;
+    }
+
+    .apartments-services-image2 {
+        max-width: 270px;
+        height: 270px;
+    }
+
+    .apartments-services-image3 {
+        min-width: 270px;
+        max-width: 270px;
+        height: 270px;
+    }
+
+    .apartments-arrow-btns {
+        margin-right: 356px;
+    }
+
+    .apartments-accept-btns {
+        margin-left: 959px;
+    }
+}

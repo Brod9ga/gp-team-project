@@ -1,0 +1,304 @@
+/* МОДАЛКА BOOKING ДЛЯ МОБІЛОК */
+.is-price-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.backdrop-price {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity var(--transition), visibility var(--transition);
+}
+
+.modality-price {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 414px;
+    padding: 0 15px 0 15px;
+    background-color:var(--light-background-color);
+    border-radius: 2px;
+    transform: translate(-50%, -50%) scaleX(1);
+    transition: transform var(--transition);
+}
+
+.modality-price-close {
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-right: 1px;
+    margin-bottom: 6px;
+    border: none;
+    background-color: transparent;
+}
+
+.modality-price-icon {
+    stroke: var(--black-text-color);
+    transition: stroke var(--transition);
+}
+
+.modality-price-icon:hover,
+.modality-price-icon:focus {
+    stroke: var(--accent-yellow-color);
+}
+
+.price-title {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color:var(--black-text-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.price-subject {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: #808080;
+    margin-bottom: 28px;
+}
+
+.price-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color:var(--brown-text-color);
+    margin-bottom: 20px;
+}
+
+.box-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-price-input {
+    width: 100%;
+    border: 1px solid var(--brown-text-color);
+    border-radius: 2px;
+    margin-bottom: 6px;
+    background-color: transparent;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: #808080;
+    padding: 15px 0 15px 13px;
+}
+
+.modal-price-input:focus,
+.modal-price-input:active {
+    outline: none;
+    border-color: var(--accent-yellow-color);
+}
+
+.input-price-icon {
+    display: none;
+    border-color: var(--accent-yellow-color);
+}
+
+/* .input-price-wrap {
+    position: relative;
+}
+
+.input-price-icon {
+    fill: #C79002;
+    position: absolute;
+    right: 20px;
+    top: 20%;
+    transform: translate(-50%);
+} */
+
+.price-text {
+    margin-bottom: 20px;
+    margin-left: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color:var(--brown-text-color);
+}
+
+.price-btn {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.modal-price-desc {
+    width: 100%;
+    border: 1px solid #C79002;
+    border-radius: 2px;
+    margin-bottom: 6px;
+    background-color: transparent;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #808080;
+    padding: 15px 0 15px 13px;
+
+    appearance: none;
+    overflow: hidden;
+    background: url('../Img/SVG/ep_arrow.svg') no-repeat right;
+    background-position-x: calc(100% - 20px);
+}
+
+.btn-price-text {
+    background-color:var(--black-text-color);
+    border: 1px solid var(--accent-yellow-color);
+    border-radius: 2px;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.2;
+    color:var(--white-background-color);
+    padding: 20px 43px;
+    cursor: pointer;
+    transition: color var(--transition);
+}
+
+.btn-price-text:hover,
+.btn-price-text:focus {
+    background:var(--accent-yellow-color);
+    border: 1px solid var(--accent-yellow-color);
+    border-radius: 2px;
+    color:var(--black-text-color);
+}
+
+/* МОДАЛКА BOOKING ДЛЯ РОЗМІРА ВІД 320 ДО 413 (КАСТОМНА) */
+
+@media screen and (min-width: 320px) and (max-width: 413px) {
+    .modality-price {
+        width: 320px;
+    }
+
+    .price-title {
+        font-size: 20px;
+    }
+
+    .price-subject {
+        font-size: 15px;
+    }
+
+    .price-subtitle {
+        font-size: 15px;
+    }
+
+    .modal-price-input {
+        font-size: 15px;
+        padding: 10px 0 10px 8px;
+    }
+
+    .price-text {
+        font-size: 15px;
+    }
+
+    .modal-price-desc {
+        font-size: 15px;
+        padding: 10px 0 10px 8px;
+    }
+
+    .btn-price-text {
+        font-size: 13px;
+    }
+
+}
+
+/* МОДАЛКА BOOKING ДЛЯ ТАБЛЕТА */
+
+@media screen and (min-width: 1024px) {
+    .modality-price {
+        width: 712px;
+    }
+
+    .price-title {
+        margin-bottom: 40px;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .price-subject {
+        padding-left: 40px;
+    }
+
+    .price-subtitle {
+        padding-left: 40px;
+    }
+
+    .modal-price {
+        padding-right: 45px;
+        padding-left: 45px;
+        padding-bottom: 60px;
+    }
+
+    .box-price {
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .modal-price-desc {
+        width: 288px;
+    }
+
+    .modal-price-input {
+        width: 288px;
+    }
+
+    .modal-booking-field {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .input-price-wrap {
+        position: relative;
+
+    }
+
+    .input-price-icon {
+        display: block;
+        fill: #C79002;
+        position: absolute;
+        right: 20px;
+        top: 20%;
+        transform: translate(-50%);
+    }
+
+    .price-btn {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .btn-price-text {
+        font-size: 23px;
+        padding: 18px 123px;
+    }
+}

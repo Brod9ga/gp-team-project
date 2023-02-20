@@ -1,58 +1,214 @@
-/* .section-header {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-} */
-.list{
-    list-style: none;
+@font-face {
+    font-family: FilmP3;
+    src: url(../fonts/FilmP3.ttf);
 }
-.link{
-    text-decoration: none;
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
-.header {
-    width: 100%;
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.header-container,
+.sec-container {
+    max-width: 1110px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+.header-container {
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
+    align-items: baseline;
 }
 
-.header-title {
-    font-family: 'Film P3';
-    font-style: normal;
+.header-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo {
+    Font-family: FilmP3;
+    Font-weight: 700;
     font-weight: 700;
     font-size: 40px;
-    line-height: 1;
+    line-height: 1.075;
     letter-spacing: 0.3em;
-    color: var(--light-logo-color)
+    color: var(--light-logo-color);
+    margin-right: 135px;
 }
 
-.header-restoran,
-.header-hotell {
-    font-family: 'Montserrat';
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-item-phone {
+    fill: var(--accent-yellow-color);
+}
+
+.header-item-restorant {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-yellow-color);
+    margin-right: 40px;
+}
+
+.header-item-hotel {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-yellow-color);
+    margin-right: 40px;
+}
+
+.restorant-tel-svg {
+    display: flex;
+    align-items: center;
+    fill: var(--accent-yellow-color);
+    outline: 1px solid var(--accent-yellow-color);
+    border-radius: 2px;
+    margin-right: 75px;
+    padding: 6px;
+}
+
+.header-restorant-tel-number {
+    width: 120px;
+    color: var(--light-logo-color);
+}
+
+.header-item:last-child {
+    margin-right: 0;
+}
+
+/* .header-link {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 2;
+    line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
+    color: #F3C653;
+    fill: #F3C653;
+} */
+
+.header-link:hover,
+.header-link:focus {
+    color: #404bbf;
 }
 
-.header-restorant-tel-number,
-.header-hotel-tel-number {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 2;
+
+.header-list-contact {
     display: flex;
-    align-items: center;
-    letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
 }
 
-.restorant-tel {
-    fill: var(--accent-yellow-color);
+.header-list-contac-item-one {
+    margin-right: 23px;
+}
+
+.instagram-header {
+    fill: #F3C653;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:414px) {
+    .header-list-contact {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 48px;
+    }
+
+    .header-item {
+        display: none;
+    }
+
+    .header-item-phone {
+        display: block;
+        margin-right: 19px;
+    }
+
+    .header-item-restorant {
+        margin-right: 8px;
+    }
+
+    .header-item-hotel {
+        margin-right: 8px;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .header-list-contact {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 207px;
+    }
+
+    .header-item {
+        display: flex;
+    }
+
+    .header-item-phone {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .header-list-contact {
+        display: flex;
+    }
+
+    .logo {
+        margin-right: 135px;
+    }
+
+    .header-item {
+        display: flex;
+    }
+
+    .header-item-phone {
+        display: none;
+    }
 }
