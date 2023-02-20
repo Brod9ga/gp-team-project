@@ -394,11 +394,11 @@ foreignObject {
     ---*/
 
 /*----- media -----*/
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
   .container {
     max-width: 458px;
   }
-}
+} */
 /*@media screen and (min-widht: 414px) { 
         .cont {
             padding-right: 47px;
@@ -409,17 +409,17 @@ foreignObject {
             flex-direction: column;   
         }
         }*/
-
+/* 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
-}
+} */
 
 @media screen and (min-width: 1200px) {
-  .container {
+  /* .container {
     max-width: 1152px;
-  }
+  } */
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -427,9 +427,9 @@ foreignObject {
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
+  /* .container {
     max-width: 1152px;
-  }
+  } */
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
