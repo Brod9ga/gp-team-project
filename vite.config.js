@@ -10,7 +10,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'src/index.html'),
         second: resolve(__dirname, 'src/hotel.html'),
-        next: resolve(__dirname, 'src/restaurant.html'),
+        third: resolve(__dirname, 'src/restaurant.html'),
         next: resolve(__dirname, 'src/apartments.html'),
       },
     },
