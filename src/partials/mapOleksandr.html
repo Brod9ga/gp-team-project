@@ -1,104 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/mapOleksandr.css" />
-    <link rel="stylesheet" href="../css/styles.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Document</title>
-  </head>
-  <body>
-    <main>
-      <!-- Верстка секції -->
-      <!-- aor - About our restaurant  -->
-      <section class="aor">
-        <div class="container">
-          <div class="aor-wrap">
-            <h2 class="aor-title">Про наш ресторан</h2>
-            <p class="uppercase aor-logo">mimiho</p>
-            <p class="aor-pre-title">Ресторанно-готельний комплекс</p>
-            <address class="aor-address">
-              <div class="aor-rest-contacts">
-                <p class="aor-rest-text">Ресторан</p>
-                <div class="contacts-rest-wrap">
-                  <svg class="aor-svgs" width="24" height="24">
-                    <use
-                      href="../Img/icons.svg#icon-fluent_phone-24-regular"
-                    ></use>
-                  </svg>
-                  <a href="" class="aor-tel">095 555 95 33</a>
-                </div>
-              </div>
-              <div class="aor-hotel-contacts">
-                <p class="aor-hotel-text">Готель</p>
-                <div class="contacts-hotel-wrap">
-                  <svg class="aor-svgs" width="24" height="24">
-                    <use
-                      href="../Img/icons.svg#icon-fluent_phone-24-regular"
-                    ></use>
-                  </svg>
-                  <a href="" class="aor-tel">066 849 10 89</a
-                  ><a href="" class="aor-tel">067 275 85 40</a>
-                </div>
-              </div>
-              <div class="contacts-map-wrap">
-                <svg class="aor-svgs" width="24" height="24">
-                  <use href="../Img/icons.svg#icon-entypo_location-pin"></use>
-                </svg>
-                <a href="" class="aor-map-address"
-                  >Україна, м. Полтава, <br class="mob-br tablet-br" />
-                  вул. Маршала Бірюзова, 15</a
-                >
-              </div>
-            </address>
-            <picture class="map-picture"
-              ><source
-                media="(min-width:1280px)"
-                srcset="../Img/Map/Map-1x.jpg 1x, ../Img/Map/Map-2x.jpg 2x"
-                width="634"
-                height="412"
-                type="image/jpeg"
-              />
-              <source
-                media="(min-width:1024px)"
-                srcset="
-                  ../Img/Map-tablet/Map-tablet-1x.jpg 1x,
-                  ../Img/Map-tablet/Map-tablet-2x.jpg 2x
-                "
-                width="535"
-                height="412"
-                type="image/jpeg"
-              />
-              <source
-                media="(min-width:414px)"
-                srcset="
-                  ../Img/Map-mob/Map-mob-1x.jpg 1x,
-                  ../Img/Map-mob/Map-mob-2x.jpg 2x
-                "
-                width="384"
-                height="220"
-                type="image/jpeg"
-              />
-              <img
-                src="../Img/Map-mob/Map-mob-1x.jpg"
-                alt="map"
-                width="384"
-                height="220"
-              />
-            </picture>
+<!-- Верстка секції -->
+<!-- aor - About our restaurant  -->
+<section class="aor">
+  <div class="container">
+    <div class="aor-wrap">
+      <h2 class="aor-title">Про наш ресторан</h2>
+      <p class="uppercase aor-logo">mimiho</p>
+      <p class="aor-pre-title">Ресторанно-готельний комплекс</p>
+      <address class="aor-address">
+        <div class="aor-rest-contacts">
+          <p class="aor-rest-text">Ресторан</p>
+          <div class="contacts-rest-wrap">
+            <svg class="aor-svgs" width="24" height="24">
+              <use href="../Img/icons.svg#icon-fluent_phone-24-regular"></use>
+            </svg>
+            <a href="" class="aor-tel">095 555 95 33</a>
           </div>
         </div>
-      </section>
-      <!-- Верстка секції -->
-    </main>
-  </body>
-</html>
+        <div class="aor-hotel-contacts">
+          <p class="aor-hotel-text">Готель</p>
+          <div class="contacts-hotel-wrap">
+            <svg class="aor-svgs" width="24" height="24">
+              <use href="../Img/icons.svg#icon-fluent_phone-24-regular"></use>
+            </svg>
+            <a href="" class="aor-tel">066 849 10 89</a
+            ><a href="" class="aor-tel">067 275 85 40</a>
+          </div>
+        </div>
+        <div class="contacts-map-wrap">
+          <svg class="aor-svgs" width="24" height="24">
+            <use href="../Img/icons.svg#icon-entypo_location-pin"></use>
+          </svg>
+          <a href="" class="aor-map-address"
+            >Україна, м. Полтава, <br class="mob-br tablet-br" />
+            вул. Маршала Бірюзова, 15</a
+          >
+        </div>
+      </address>
+      <picture class="map-picture"
+        ><source
+          media="(min-width:1280px)"
+          srcset="../Img/Map/Map-1x.jpg 1x, ../Img/Map/Map-2x.jpg 2x"
+          width="634"
+          height="412"
+          type="image/jpeg"
+        />
+        <source
+          media="(min-width:1024px)"
+          srcset="
+            ../Img/Map-tablet/Map-tablet-1x.jpg 1x,
+            ../Img/Map-tablet/Map-tablet-2x.jpg 2x
+          "
+          width="535"
+          height="412"
+          type="image/jpeg"
+        />
+        <source
+          media="(min-width:414px)"
+          srcset="
+            ../Img/Map-mob/Map-mob-1x.jpg 1x,
+            ../Img/Map-mob/Map-mob-2x.jpg 2x
+          "
+          width="384"
+          height="220"
+          type="image/jpeg"
+        />
+        <img
+          src="../Img/Map-mob/Map-mob-1x.jpg"
+          alt="map"
+          width="384"
+          height="220"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+<!-- Верстка секції -->
