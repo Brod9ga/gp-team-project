@@ -13,24 +13,22 @@
     --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* * {
-    margin: 0;
-    padding: 0;
+.container-rest {
+    width: 384px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0, 15px;
     list-style: none;
     box-sizing: border-box;
-} */
 
-.container-rest {
-    /*--display: block;--*/
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 
 
 @font-face {
     font-family: FilmP3;
-    src: url(../gp-team-project/src/fonts/FilmP3.ttf);
+    src: url(/src/fonts/FilmP3.ttf);
 }
 
 ul,
@@ -38,10 +36,7 @@ ol {
     list-style: none;
 }
 
-img {
-    /*--display: block;--*/
-    height: auto;
-}
+
 
 .section-restaurant {
     background-color: var(--light-background-color);
@@ -52,18 +47,20 @@ img {
 }
 
 .after-logo {
-    font-family: 'Times New Roman';
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.15;
     color: #B4B4B4;
     padding-top: 16px;
+    margin-top: 0;
     margin-bottom: 12px;
 }
 
 .logo-rest {
-    font-family: 'Film P3';
+    font-family: FilmP3;
+    src: url(/src/fonts/FilmP3.ttf);
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -71,6 +68,7 @@ img {
     letter-spacing: 0.3em;
     color: #494848;
     margin-bottom: 12px;
+    margin-top: 0;
 }
 
 .text-rest {
@@ -85,9 +83,7 @@ img {
     margin-bottom: 28px;
 }
 
-.interier {
-    position: relative;
-}
+
 
 .list-rest {
     display: flex;
@@ -106,7 +102,7 @@ img {
 .inter {
     padding-right: 0;
     width: 244px;
-    margin-left: 155px;
+    margin-left: 140px;
 }
 
 .im {
@@ -164,10 +160,18 @@ img {
 .icon-rest:focus {
     fill: #F3C653;
 }
+@media screen and (min-width: 320px) and (max-width: 414px) {
+    .container-rest {
+        max-width: 384px;
+        width: none;
+    }
+}
 
 @media screen and (min-width: 414px) {
     .container-rest {
-        width: 414px;
+        width: 384px;
+        min-width: none;
+        max-width: none;
     }
 
     .svg-rest {
@@ -182,9 +186,9 @@ img {
 
 @media screen and (min-width: 1024px) {
     .container-rest {
-        width: 1024px;
-        padding-left: 47px;
-        padding-right: 47px;
+        width: 930px;
+        min-width: none;
+        max-width: none;
     }
 
     .second {
@@ -268,11 +272,11 @@ img {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .container-rest {
-        width: 1200px;
-        padding-left: 85px;
-        padding-right: 85px;
+        width: 1110px;
+        min-width: none;
+        max-width: none;
     }
 
     .inter {
@@ -304,7 +308,7 @@ img {
     }
 
     .svg-rest {
-        width: 1030px;
+        width: 1110px;
         padding-bottom: 50px;
     }
 
