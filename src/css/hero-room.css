@@ -161,10 +161,10 @@ ul {
     }
 
 
-    .hero-soc-link {
+    .hero-soc-link-room {
         display: flex;
         margin-left: 16px;
-        margin-top: 40px;
+        margin-top: 120px;
     }
 
     .hero-soc-list {
@@ -240,7 +240,7 @@ ul {
         letter-spacing: 0.02em;
     }
 
-    .hero-soc-link {
+    .hero-soc-link-room {
         display: flex;
         margin: 0 auto;
     }
@@ -252,10 +252,11 @@ ul {
         gap: 23px;
     }
 
-    .hero-map-and-btn-sec {
+    .hero-map-and-btn-sec-room {
         display: flex;
         justify-content: space-between;
         margin-left: 47px;
+        margin-top: 125px;
         align-items: end;
     }
 
@@ -286,10 +287,11 @@ ul {
 
     }
 
-    .hero-map-and-btn-sec {
+    .hero-map-and-btn-sec-room {
         display: flex;
         justify-content: space-between;
         margin-left: 85px;
+        margin-top: 130px;
     }
 
 }
