@@ -78,7 +78,7 @@
     /* margin-right: 114px; */
 }
 
-.btn {
+.btn-a {
     color:var(--white-background-color);
     background:var(--black-text-color);
     border: 1px solid var(--accent-yellow-color);
@@ -93,8 +93,8 @@
     transition: color var(--transition), border-color var(--transition), background-color var(--transition);
 }
 
-.btn:hover,
-.btn:focus {
+.btn-a:hover,
+.btn-a:focus {
     background-color: var(--accent-yellow-color);
     border: 1px solid var(--accent-yellow-color);
     border-radius: 25px;
@@ -176,7 +176,7 @@
         gap: 16px;
     }
 
-    .btn {
+    .btn-a {
         min-width: 384px;
     }
     
@@ -187,7 +187,7 @@
 
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 413px) {
+@media screen and (min-width: 320px) and (max-width: 413px) {
     .subject {
         font-size: 16px;
         line-height: 1.25;
@@ -213,16 +213,18 @@
         line-height: 1.25;
     }
 
-    .btn {
+    .btn-a {
         font-size: 13px;
         line-height: 1.1;
+        min-width: 288px;
     }
 
     .return {
         font-size: 13px;
         line-height: 1.1;
+        min-width: 288px;
     }
-} */
+}
 
 /* ========АДАПТИВКА ДЛЯ ТАБЛЕТА ============*/
 
@@ -261,10 +263,9 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-right: 24px;
     }
 
-    .btn {
+    .btn-a {
         font-size: 24px;
         line-height: 1.2;
         padding: 18px 38px;
@@ -286,7 +287,7 @@
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        /* padding: 0 85px 0 85px; */
+        padding: 0 85px 0 85px;
     }
 
     .subject {
@@ -297,11 +298,11 @@
         gap: 159px;
     }
 
-    .btn {
-        margin-right: 170px;
+    .btn-a {
+        margin-right: 114px;
     }
     
     .return{
-        margin-right: 170px;
+        margin-right: 114px;
     }
 }
