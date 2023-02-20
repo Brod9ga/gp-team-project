@@ -110,17 +110,15 @@ ul {
     color: #E5E5E5;
 }
 
-.hero-buttums {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .hero-buttums-list {
     display: flex;
+    align-items: center;
     gap: 60px;
 }
 
 .hero-buttum-tible {
+    width: 258px;
+    height: 48px;
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #FFFFFF;
     border-radius: 25px;
@@ -134,6 +132,8 @@ ul {
 }
 
 .hero-buttum-number {
+    width: 254px;
+    height: 48px;
     margin-right: 85px;
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #FFFFFF;
@@ -148,14 +148,44 @@ ul {
 }
 
 .hero-link-text {
-    width: 285px;
     outline: 1px solid var(--accent-yellow-color);
     padding: 15px;
 }
 
 @media screen and (min-width:414px) {
+
+    .first-sec-title {
+        margin-left: 40px;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 1.07;
+        letter-spacing: 0.3em;
+    }
+
+    .first-sec-paragraf {
+        margin-top: 24px;
+        Font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 0.02em;
+    }
+
+    .first-sec-paragraf-two {
+        margin-top: 40px;
+        font-family: Times New Roman;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 2;
+        letter-spacing: 0.05em;
+    }
+
     .hero-soc-link {
         display: flex;
+        margin-left: 16px;
+        margin-top: 40px;
     }
 
     .hero-soc-list {
@@ -164,19 +194,48 @@ ul {
     }
 
     .hero-buttums-list {
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 24px;
+    }
+
+    .hero-buttum-tible,
+    .hero-buttum-number {
+        width: 236px;
+        height: 48px;
+    }
+
+    .hero-buttum-number {
+        margin-left: 85px;
     }
 
     .hero-link-text {
         position: absolute;
-        width: 210px;
         height: 47px;
         left: 189px;
-        top: 64px;
+        top: 84px;
     }
+
+    .hero-link-text {
+        width: 210px;
+        outline: 1px solid var(--accent-yellow-color);
+        padding: 1px;
+    }
+
+    .hero-link-text-text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.01em;
+        color: #E5E5E5;
+    }
+
 }
+
 
 @media screen and (min-width:1024px) {
     .first-sec {
@@ -184,26 +243,66 @@ ul {
             url(../Img/Homepage-tablet/Homepage-hero-tablet1-1x.jpg);
     }
 
+    .first-sec-title {
+        margin-top: 188px;
+        font-weight: 700;
+        font-size: 128px;
+        line-height: 1;
+        letter-spacing: 0.3em;
+    }
+
+    .first-sec-paragraf {
+        margin-top: 16px;
+        Font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 2;
+        letter-spacing: 0.02em;
+    }
+
+    .first-sec-paragraf-two {
+        margin-top: 56px;
+        font-family: Times New Roman;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 2;
+        letter-spacing: 0.05em;
+    }
+
     .hero-soc-link {
         display: flex;
+        margin: 0 auto;
     }
 
     .hero-soc-list {
+        margin-top: 10px;
+        margin-left: 48px;
         display: flex;
         gap: 23px;
     }
 
-    .hero-buttums-list {
+    .hero-map-and-btn-sec {
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 47px;
+        align-items: end;
     }
 
     .hero-link-text {
-        position: absolute;
-        width: 285px;
-        height: 56px;
-        left: 47px;
-        top: 600px;
+        position: static;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 0.01em;
+    }
+
+    .hero-buttums-list {
+        margin-top: 135px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
 
@@ -215,9 +314,16 @@ ul {
 
     .hero-soc-link {
         display: none;
+
     }
 
-    .hero-buttums-list {
+    .hero-map-and-btn-sec {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 85px;
+    }
+
+    /* .hero-buttums-list {
         display: flex;
         flex-direction: row;
         margin-top: 144px;
@@ -229,5 +335,5 @@ ul {
         height: 56px;
         left: 85px;
         top: 600px;
-    }
+    } */
 }
