@@ -88,10 +88,6 @@
   margin-right: 15px;
 }
 
-/* .kitchen-picture-bottom {
-  min-width: none;
-} */
-
 .kitchen-text-bottom {
   margin-top: 70px;
 }
@@ -163,7 +159,7 @@
 
   /*--------------- Kitchen Slides ---------------*/
   .kitchen-slides {
-    overflow: visible;
+    overflow: hidden;
     margin-left: 69px;
   }
 }
@@ -237,6 +233,7 @@
 
   /*--------------- Kitchen Slides ---------------*/
   .kitchen-slides {
+    overflow: visible;
     margin-left: 0;
   }
 
