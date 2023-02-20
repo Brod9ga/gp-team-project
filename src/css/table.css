@@ -149,6 +149,7 @@ ul {
     align-items: center;
     text-align: center;
 }
+
 .item-menu {
     
     padding-left: 68px;
@@ -176,7 +177,15 @@ ul {
     justify-content: center;
 }
 .modal-tab-btn:hover, .table-menu:hover,
-.modal-tab-btn:focus, .table-menu:focus {
+.modal-tab-btn:focus, .table-menu:focus {}
+
+
+
+
+.modal-tab-btn:hover,
+.table-menu:hover,
+.modal-tab-btn:focus,
+.table-menu:focus {
     background: var(--white-background-color);
     border: 2px solid var(--accent-yellow-color);
 }
