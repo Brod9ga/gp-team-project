@@ -42,7 +42,7 @@ ul {
 .aor {
   padding-top: 36px;
   padding-bottom: 32px;
-  background-color: #fffdee;
+  background-color: var(--light-background-color);
 }
 .aor-title {
   display: none;
@@ -54,7 +54,7 @@ ul {
   font-size: 40px;
   line-height: 1.07;
   letter-spacing: 0.3em;
-  color: #494848;
+  color: var(--dark-logo-color);
 }
 .aor-pre-title {
   margin-bottom: 16px;
@@ -63,7 +63,7 @@ ul {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #7a7a7a;
+  color: var(--body-text-color);
 }
 .aor-address {
   display: flex;
@@ -86,14 +86,14 @@ ul {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #c79002;
+  color: var(--brown-text-color);
 }
 .contacts-rest-wrap,
 .contacts-hotel-wrap,
 .contacts-map-wrap {
   width: 134px;
   height: 40px;
-  background-color: #ffffff;
+  background-color: var(--white-background-color);
   border: 0.5px solid #f3c653;
   border-radius: 2px;
   display: flex;
@@ -101,7 +101,7 @@ ul {
   padding-left: 8px;
 }
 .aor-svgs {
-  fill: #c79002;
+  fill: var(--brown-text-color);
   margin-right: 8px;
 }
 .aor-tel {
@@ -110,7 +110,7 @@ ul {
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.02em;
-  color: #494848;
+  color: var(--dark-logo-color);
 }
 
 .aor-hotel-contacts {
@@ -139,7 +139,7 @@ ul {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.01em;
-  color: #494848;
+  color: var(--dark-logo-color);
   width: 183px;
 }
 
