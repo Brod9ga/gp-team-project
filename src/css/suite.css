@@ -1,4 +1,8 @@
 /* Styles for Mob version */
+@font-face {
+  font-family: FilmP3;
+  src: url(../fonts/FilmP3.ttf);
+}
 picture {
   display: block;
 }
