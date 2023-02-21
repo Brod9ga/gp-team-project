@@ -63,9 +63,9 @@
 // ===============МОДАЛКА ДЛЯ BOOKING-ЗАБРОНЮВАТИ СТОЛИК
 (() => {
   const refs = {
-    openModalBtn: document.querySelector("[booking-table-modal-open]"),
-    closeModalBtn: document.querySelector("[booking-table-modal-close]"),
-    modal: document.querySelector("[booking-table-modal]"),
+    openModalBtn: document.querySelector("[data-modal-open]"),
+    closeModalBtn: document.querySelector("[data-modal-close]"),
+    modal: document.querySelector("[data-modal]"),
   };
 
   refs.openModalBtn.addEventListener("click", toggleModal);
@@ -75,3 +75,5 @@
     refs.modal.classList.toggle("is-hidden");
   }
 })();
+
+
