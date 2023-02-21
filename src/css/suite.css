@@ -1,4 +1,8 @@
 /* Styles for Mob version */
+@font-face {
+  font-family: FilmP3;
+  src: url(../fonts/FilmP3.ttf);
+}
 picture {
   display: block;
 }
@@ -35,7 +39,7 @@ body {
 }
 
 .suite-logo {
-  font-family: FilmP3;
+  font-family: 'FilmP3';
   font-weight: 700;
   font-size: 40px;
   line-height: 1.07;
@@ -297,9 +301,4 @@ body {
   .suite-main-photo {
     right: 95px;
   }
-}
-
-@font-face {
-  font-family: FilmP3;
-  src: url(../fonts/FilmP3.ttf);
 }

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: FilmP3;
+  src: url(../fonts/FilmP3.ttf);
+}
+
 ul {
   list-style-type: none;
 }
@@ -201,9 +206,4 @@ ul {
   .aor-pre-title {
     margin-bottom: 40px;
   }
-}
-
-@font-face {
-  font-family: FilmP3;
-  src: url(../fonts/FilmP3.ttf);
 }
