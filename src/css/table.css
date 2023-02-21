@@ -23,7 +23,7 @@ ul {
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.65);
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(./Img/Homepage-mob/Homepage-hero-mob2-1x.jpg);
+    url(/Img/Homepage-mob/Homepage-hero-mob2-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -33,7 +33,7 @@ ul {
   (min-resolution: 2dppx) {
   .section-table {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./Img/Homepage-mob/Homepage-hero-mob2-2x.jpg);
+      url(/Img/Homepage-mob/Homepage-hero-mob2-2x.jpg);
   }
 }
 .table-text {
@@ -171,11 +171,7 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.modal-tab-btn:hover,
-.table-menu:hover,
-.modal-tab-btn:focus,
-.table-menu:focus {
-}
+
 
 .modal-tab-btn:hover,
 .table-menu:hover,
@@ -215,7 +211,7 @@ ul {
     position: relative;
     width: 1024px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(./Img/Homepage-tablet/Homepage-hero-tablet2-1x.jpg);
+      url(/Img/Homepage-tablet/Homepage-hero-tablet2-1x.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -225,7 +221,7 @@ ul {
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(./Img/Homepage-tablet/Homepage-hero-tablet2-2x.jpg);
+        url(/Img/Homepage-tablet/Homepage-hero-tablet2-2x.jpg);
     }
   }
   .table-text {
