@@ -1,1 +1,0 @@
-import"./main-be7f9d3c.js";(()=>{const e={openModalBtn:document.querySelector("[price-modal-open]"),closeModalBtn:document.querySelector("[price-modal-close]"),modal:document.querySelector("[price-modal]")};e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o);function o(){e.modal.classList.toggle("is-price-hidden")}})();
