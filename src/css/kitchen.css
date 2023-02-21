@@ -8,7 +8,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
-  padding-right: 0;
+  padding-right: 15px;
 }
 
 .section-about-kitchen {
@@ -84,8 +84,6 @@
 
 .kitchen-pic-bottom {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-
-  margin-right: 15px;
 }
 
 .kitchen-text-bottom {
@@ -123,7 +121,6 @@
   gap: 32px;
 
   margin-top: 28px;
-  margin-right: 15px;
 }
 
 .kitchen-svg-icon {
@@ -176,8 +173,6 @@
 @media screen and (min-width: 1024px) {
   .kitchen-container {
     max-width: 960px;
-
-    padding-right: 15px;
   }
 
   .section-about-kitchen {
@@ -262,7 +257,6 @@
 
   .kitchen-svg-list {
     margin-top: 32px;
-    margin-right: 0;
   }
 }
 
