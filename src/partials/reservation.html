@@ -1,0 +1,84 @@
+ <!--modal page book table-->
+
+ <div class="backdrop is-hidden" booking-table-modal>
+    <div class="modal">
+      <button type="button" class="modal-close" booking-table-modal-close>
+        <svg class="modal-close-icon" width="18" height="18">
+          <use href="./Img/icons.svg#icon-modal-close"></use>
+        </svg>
+      </button>
+
+      <p class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</p>
+
+      <form class="modal-form">
+        
+       <div class="book-table-wrap">
+          <div class="modal-left">
+            <div class="modal-field">
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  class="modal-input"
+                  placeholder="Ваше ім’я"
+                  required
+                  pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+                  autocomplete="given-name"
+                /> 
+              </div>
+              <label for="user-name" class="input-text">На кого забронювати столик?</label>
+            </div>
+    
+            <div class="modal-field">
+              <div class="input-wrap">
+                <input
+                  type="tel"
+                  name="user-tel"
+                  id="user-tel"
+                  class="modal-input"
+                  placeholder="+38 (___) ___-__-__"
+                  required
+                  pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                  autocomplete="off"
+    
+                />
+              </div>
+              <label for="user-tel" class="input-text">Номер телефону</label>
+            </div>
+          </div>
+  
+          <div class="modal-right">
+            <div class="modal-field">
+              <div class="input-wrap">
+                <div class="select-book-table-wrap">
+                  <select name="number-of-people" id="" class="select">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                  </select>
+                </div>
+              </div>
+              <label for="user-tel" class="input-text">Столик на яку кількість осіб?</label>
+            </div>
+    
+            <div class="modal-field">
+              <div class="input-wrap">
+                <div class="select-book-day-wrap">
+                  <select name="date-of-booking" id="" class="select">
+                      <option value="1">Сьогодні</option>
+                      <option value="2">Завтра</option>
+                      <option value="3">Інший день</option>
+                  </select>
+                </div>
+              </div>
+              <label for="user-tel" class="input-text">На яку дату бронювати?</label>
+            </div>
+          </div>
+       </div>
+
+
+        <button type="submit" class="modal-submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+      </form>
+    </div>
+  </div>
