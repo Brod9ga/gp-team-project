@@ -78,21 +78,34 @@
     align-items: center;
     fill: var(--accent-yellow-color);
     outline: 1px solid var(--accent-yellow-color);
+    /* border-color: var(--accent-yellow-color); */
     border-radius: 2px;
     margin-right: 75px;
     padding: 6px;
 }
 
 .restorant-tel-svg:hover,
-.restorant-tel-svg:focus,
+.restorant-tel-svg:focus {
+    fill: var(--light-logo-color);
+    outline: 1px solid var(--light-logo-color);
+}
+
 .header-list-contac-item-one:hover,
 .header-list-contac-item-one:focus,
 .header-contact:focus,
-.header-contact:hover,
+.header-contact:hover {
+    fill: var(--light-logo-color);
+    color: var(--light-logo-color);
+}
+
+.instagram-header {
+    fill: #F3C653;
+    background-color: transparent;
+}
+
 .instagram-header:hover,
 .instagram-header:focus {
     fill: var(--light-logo-color);
-    color: var(--light-logo-color);
 }
 
 .header-restorant-tel-number {
@@ -121,9 +134,7 @@
     margin-right: 23px;
 }
 
-.instagram-header {
-    fill: #F3C653;
-}
+
 
 
 
