@@ -202,3 +202,8 @@ ul {
     margin-bottom: 40px;
   }
 }
+
+@font-face {
+  font-family: FilmP3;
+  src: url(../fonts/FilmP3.ttf);
+}
