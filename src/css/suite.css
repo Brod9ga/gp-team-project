@@ -213,11 +213,9 @@ body {
 
 /* Styles for tablet */
 @media screen and (min-width: 1024px) {
-  /* .container {
-    max-width: none;
-    width: 960px;
+  .suite-container {
     position: relative;
-  } */
+  }
 
   .suite {
     background-color: var(--light-background-color);
