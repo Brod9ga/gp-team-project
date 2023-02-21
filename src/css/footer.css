@@ -130,80 +130,76 @@
 /* ---------TABLET----------- */
 
 @media screen and (min-width: 1024px){
+
   .footer .container{
-      width: 744px;
-      gap: 0px;
-    }
-
-    .footer {
-      padding-top: 80px;
-      padding-bottom: 80px;
-    
-    }
-.logo-footer:hover > .footer-soc-text:hover{ color: var(--white-background-color)}
-    .logo-footer {
-      Font-family: FilmP3;
-      Font-weight: 700;
-      Font-size: 64px;
-      Line-height: 1.08;
-      Letter-spacing: 0.3em;
-    
-     
-     
-     }
-
-    .footer-right{
-      display: flex;
-      flex-direction: row;
-      gap: 140px;
-      align-items: baseline;
-      margin-left: 163px;
-
-
-    }
-
-    .footer-soc-list {
-      display: inline-flex;
-      flex-direction: column-reverse;
-    }
-
-
-
-     .footer-soc-item {
-      width: 144px;
-      height: 40px;
-      border: 1px solid var(--accent-yellow-color);
-      border-radius: 2.5px;
-    
-    }
-
-    
-
-  
+     width: 744px;
+   }
+ 
+   .footer {
+     padding-top: 80px;
+     padding-bottom: 80px;
    
+   }
+ 
+   .logo-footer {
+     Font-family: FilmP3;
+     Font-weight: 700;
+     Font-size: 64px;
+     Line-height: 1.08;
+     Letter-spacing: 0.3em;
    
-
-    .footer-soc-text{
-      display: inline-block;
-      margin-right: 11px;
-
-      Font-family: Montserrat, sans-serif;
-      font-weight: 400;
-      Font-size: 16px;
-      Line-height: 1.22;
-      Letter-spacing: 2%;
-      margin-left: 12px;
-
-
-      color: var(--accent-yellow-color);
-      
+    
+    
     }
-
+ 
+   .footer-right{
+     display: flex;
+     flex-direction: row;
+     gap: 140px;
+     align-items: baseline;
+     margin-left: 163px;
+ 
+ 
+   }
+ 
+   .footer-soc-list {
+     display: inline-flex;
+     flex-direction: column-reverse;
+   }
+ 
+ /*-----------add hover for soc-------------- */
+ 
+    .footer-soc-item {
+     width: 144px;
+     height: 40px;
+     border: 1px solid var(--accent-yellow-color);
+     border-radius: 2.5px;
+     color: var(--accent-yellow-color);
+ 
+     transition: border var(--transition), color var(--transition);
    
+   }
+ 
+   .footer-soc-item:hover,
+   .footer-soc-item:focus{
+     border: 1px solid var(--white-background-color);
+     color: var(--white-background-color);
+   }
+ 
+   /* ----------------------------------- */
+ 
+   .footer-soc-text{
+     display: inline-block;
+     margin-right: 20px;
+     padding-left: 10px;
+ 
+     Font-family: Montserrat, sans-serif;
+     font-weight: 400;
+     Font-size: 16px;
+     Line-height: 1.22;
+     Letter-spacing: 2%;
      
-  }
-
-
+   }
 /* ---------DESCTOP----------- */
 
 @media screen and (min-width: 1280px){
@@ -220,3 +216,75 @@
   }
 
 
+  @media screen and (min-width: 1024px){
+
+    .footer .container{
+       width: 744px;
+     }
+   
+     .footer {
+       padding-top: 80px;
+       padding-bottom: 80px;
+     
+     }
+   
+     .logo-footer {
+       Font-family: FilmP3;
+       Font-weight: 700;
+       Font-size: 64px;
+       Line-height: 1.08;
+       Letter-spacing: 0.3em;
+     
+      
+      
+      }
+   
+     .footer-right{
+       display: flex;
+       flex-direction: row;
+       gap: 140px;
+       align-items: baseline;
+       margin-left: 163px;
+   
+   
+     }
+   
+     .footer-soc-list {
+       display: inline-flex;
+       flex-direction: column-reverse;
+     }
+   
+   /*-----------add hover for soc-------------- */
+   
+      .footer-soc-item {
+       width: 144px;
+       height: 40px;
+       border: 1px solid var(--accent-yellow-color);
+       border-radius: 2.5px;
+       color: var(--accent-yellow-color);
+   
+       transition: border var(--transition), color var(--transition);
+     
+     }
+   
+     .footer-soc-item:hover,
+     .footer-soc-item:focus{
+       border: 1px solid var(--white-background-color);
+       color: var(--white-background-color);
+     }
+   
+     /* ----------------------------------- */
+   
+     .footer-soc-text{
+       display: inline-block;
+       margin-right: 20px;
+       padding-left: 10px;
+   
+       Font-family: Montserrat, sans-serif;
+       font-weight: 400;
+       Font-size: 16px;
+       Line-height: 1.22;
+       Letter-spacing: 2%;
+       
+     }
+    }}

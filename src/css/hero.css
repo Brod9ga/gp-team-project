@@ -110,7 +110,7 @@ ul {
     color: #E5E5E5;
 }
 
-.hero-buttums-list {
+.hero-buttums {
     display: flex;
     align-items: center;
     gap: 60px;
@@ -193,8 +193,8 @@ ul {
         gap: 23px;
     }
 
-    .hero-buttums-list {
-        margin-top: 100px;
+    .hero-buttums {
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -286,8 +286,7 @@ ul {
     .hero-map-and-btn-sec {
         display: flex;
         justify-content: space-between;
-        margin-left: 47px;
-        align-items: end;
+        margin-left: 85px;
     }
 
     .hero-link-text {
@@ -298,8 +297,7 @@ ul {
         letter-spacing: 0.01em;
     }
 
-    .hero-buttums-list {
-        margin-top: 135px;
+    .hero-buttums {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -322,18 +320,4 @@ ul {
         justify-content: space-between;
         margin-left: 85px;
     }
-
-    /* .hero-buttums-list {
-        display: flex;
-        flex-direction: row;
-        margin-top: 144px;
-    }
-
-    .hero-link-text {
-        position: absolute;
-        width: 285px;
-        height: 56px;
-        left: 85px;
-        top: 600px;
-    } */
 }
