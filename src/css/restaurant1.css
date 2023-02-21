@@ -215,6 +215,10 @@ ol {
     .list-item-rest {
         width: 350px;
     }
+    .img-rest-inter {
+        width: 350px;
+    }
+
 
     .image {
         width: 350px;
@@ -300,6 +304,9 @@ ol {
     }
 
     .list-item-rest {
+        width: 460px;
+    }
+    .img-rest-inter {
         width: 460px;
     }
 
