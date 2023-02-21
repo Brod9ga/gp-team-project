@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'FilmP3';
+  font-family: FilmP3;
   src: url(../fonts/FilmP3.ttf);
 }
 
@@ -17,7 +17,7 @@ ul {
 }
 .aor-logo {
   margin-bottom: 12px;
-  font-family: 'Film P3';
+  font-family: FilmP3;
   font-weight: 700;
   font-size: 40px;
   line-height: 1.07;
