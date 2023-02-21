@@ -1,4 +1,41 @@
 /* Styles for Mob version */
+@font-face {
+  font-family: FilmP3;
+  src: url(../fonts/FilmP3.ttf);
+}
+
+.suite-container {
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .suite-container {
+    max-width: 384px;
+    width: none;
+  }
+}
+@media screen and (min-width: 414px) {
+  .suite-container {
+    width: 384px;
+    min-width: none;
+    max-width: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .suite-container {
+    width: 930px;
+    min-width: none;
+    max-width: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .suite-container {
+    width: 1140px;
+    min-width: none;
+    max-width: none;
+  }
+}
 picture {
   display: block;
 }
@@ -25,6 +62,10 @@ body {
 .uppercase {
   text-transform: uppercase;
 }
+.uppercase.suite-title:hover,
+.uppercase.suite-title:focus {
+  color: var(--black-text-color);
+}
 
 .suite-text {
   margin-bottom: 8px;
@@ -40,7 +81,7 @@ body {
   font-size: 40px;
   line-height: 1.07;
   letter-spacing: 0.3em;
-  color: #494848;
+  color: var(--dark-logo-color);
   margin-bottom: 32px;
 }
 
@@ -50,7 +91,7 @@ body {
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: 0.05em;
-  color: #000000;
+  color: var(--black-text-color);
   margin-bottom: 12px;
 }
 
@@ -60,7 +101,7 @@ body {
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #7a7a7a;
+  color: var(--body-text-color);
   margin-bottom: 32px;
   max-width: 260px;
 }
@@ -118,7 +159,7 @@ body {
 
 .arrow-btn-icon {
   visibility: visible;
-  fill: #000000;
+  fill: var(--black-text-color);
   transition: fill 250ms linear;
 }
 
@@ -138,11 +179,11 @@ body {
 
 .accept-btn {
   color: var(--accent-yellow-color);
-  background-color: #000000;
+  background-color: var(--black-text-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #fffdee;
+  border: 2px solid var(--light-background-color);
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -158,7 +199,7 @@ body {
 .accept-btn:focus,
 .accept-btn:active {
   background-color: var(--accent-yellow-color);
-  color: #000000;
+  color: var(--black-text-color);
 }
 
 @media screen and (min-width: 320px) and (max-width: 414px) {
@@ -176,11 +217,9 @@ body {
 
 /* Styles for tablet */
 @media screen and (min-width: 1024px) {
-  /* .container {
-    max-width: none;
-    width: 960px;
+  .suite-container {
     position: relative;
-  } */
+  }
 
   .suite {
     background-color: var(--light-background-color);
