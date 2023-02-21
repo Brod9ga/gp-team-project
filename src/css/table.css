@@ -22,7 +22,7 @@ ul {
     padding: 0;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.65);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(/src/Img/Homepage-mob/Homepage-hero-mob2-1x.jpg) ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(./Img/Homepage-mob/Homepage-hero-mob2-1x.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -31,7 +31,7 @@ ul {
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .section-table {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/src/Img/Homepage-mob/Homepage-hero-mob2-2x.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./Img/Homepage-mob/Homepage-hero-mob2-2x.jpg);
     }
 }
 .table-text {
@@ -221,13 +221,13 @@ ul {
     .section-table {
         position: relative;
         width: 1024px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/src/Img/Homepage-tablet/Homepage-hero-tablet2-1x.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./Img/Homepage-tablet/Homepage-hero-tablet2-1x.jpg);
     }
    @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
             .section {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/src/Img/Homepage-tablet/Homepage-hero-tablet2-2x.jpg);
+                background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./Img/Homepage-tablet/Homepage-hero-tablet2-2x.jpg);
             }
     }
     .table-text {
@@ -299,13 +299,13 @@ ul {
     }
     .section-table {
         width: 1280px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/src/Img/Homepage/Homepage-hero2-1x.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./Img/Homepage/Homepage-hero2-1x.jpg);
     }    
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
          .section {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/src/Img/Homepage/Homepage-hero2-2x.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./Img/Homepage/Homepage-hero2-2x.jpg);
             }
         }
     .table-list {
