@@ -3,35 +3,12 @@
     src: url(../fonts/FilmP3.ttf);
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding-left: 0;
-}
-
 .header-container,
 .sec-container {
     max-width: 1110px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-}
-
-.list {
-    list-style: none;
-}
-
-.link {
-    text-decoration: none;
 }
 
 .header {
@@ -107,9 +84,13 @@ ul {
 }
 
 .restorant-tel-svg:hover,
-.instagram-header,
-.header-list-contac-item-one,.header-contact:focus,
-:hover {
+.restorant-tel-svg:focus,
+.header-list-contac-item-one:hover,
+.header-list-contac-item-one:focus,
+.header-contact:focus,
+.header-contact:hover,
+.instagram-header:hover,
+.instagram-header:focus {
     fill: var(--light-logo-color);
     color: var(--light-logo-color);
 }
