@@ -24,14 +24,16 @@
     <!-- Loads the specified .html file -->
     <!-- Алекс Машина -->
     <load src="partials/header.html" />
-    <!-- Алекс Машина -->
-    <load src="partials/hero-room.html" />
-    <!-- Олександр Тимошенко -->
-    <load src="partials/suite.html" />
-    <!-- Batyr -->
-    <load src="partials/triple.html" />
-    <!-- Славик Мельничук -->
-    <load src="partials/double.html" />
+    <main>
+      <!-- Алекс Машина -->
+      <load src="partials/hero-room.html" />
+      <!-- Олександр Тимошенко -->
+      <load src="partials/suite.html" />
+      <!-- Batyr -->
+      <load src="partials/triple.html" />
+      <!-- Славик Мельничук -->
+      <load src="partials/double.html" />
+    </main>
     <!-- Alyona -->
     <load src="partials/footer.html" />
     <!-- Alyona -->
@@ -40,8 +42,75 @@
     <load src="partials/price.html" />
     <!-- Alyona -->
     <load src="partials/reservation.html" />
+    <div class="backdrop-price is-price-hidden" price-modal>
+      <div class="modality-price">
+        <button type="button" class="modality-price-close" price-modal-close>
+          <svg class="modality-price-icon" width="24" height="24">
+            <use href="./Img/icons.svg#icon-222"></use>
+          </svg>
+        </button>
+        <p class="price-title">ЦІНИ НА НОМЕР</p>
+        <p class="price-subject">Двомісний люкс</p>
+        <p class="price-subtitle">Категорія номеру</p>
 
+        <form class="modal-price">
+          <div class="box-price">
+            <div class="modal-price-field">
+              <label for="user-name" class="input-price-text"></label>
+
+              <div class="input-price-wrap">
+                <select
+                  name="user-room"
+                  id="user-room"
+                  class="modal-price-desc"
+                >
+                  <option value="x1" selected>1</option>
+                  <option value="x2">2</option>
+                  <option value="x3">3</option>
+                  <option value="x4">4</option>
+                  <option value="x5">5</option>
+                  <option value="x6">6</option>
+                  <option value="x7">7</option>
+                </select>
+                <p class="price-text">Кількість ночей</p>
+
+                <!-- <input type="text" name="user-name" id="user-name" class="modal-price-input" placeholder="1"
+                            required>
+                        <svg class="input-price-icon" width="24" height="24">
+                            <use href="../Img/icons.svg#icon-ep_arrow"></use>
+                        </svg> -->
+
+                <!-- <p class="price-text">Кількість ночей</p> -->
+              </div>
+            </div>
+            <div class="modal-price-field">
+              <label for="user-email" class="input-price-text"></label>
+              <div class="input-price-wrap">
+                <input
+                  type="email"
+                  name="user-data"
+                  id="user-data"
+                  class="modal-price-input"
+                  placeholder="1000"
+                  pattern="^[0-9]+$"
+                  autocomplete="on"
+                  required
+                />
+
+                <p class="price-text">грн</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="price-btn">
+            <button class="btn-price-text" type="button">
+              ОФОРМИТИ БРОНЮВАННЯ
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
-    <script src="price-double-lux.js"></script>
+    <script src="/price-double-lux.js"></script>
   </body>
 </html>
