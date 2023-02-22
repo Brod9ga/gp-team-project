@@ -92,7 +92,7 @@ img {
 
 .table-logo {
   font-family: FilmP3, sans-serif;
-  src: url(/images/FilmP3.ttf);
+  src: url(/src/fonts/FilmP3.ttf);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
