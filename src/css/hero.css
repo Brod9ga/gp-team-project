@@ -117,6 +117,18 @@
 .telegram {
     fill: var(--accent-yellow-color);
 }
+.instagram:hover,
+.instagram:focus{
+    fill: var(--white-text-color);
+}
+.facebook:hover,
+.facebook:focus{
+    fill: var(--white-text-color);
+}
+.telegram:hover,
+.telegram:focus{
+    fill: var(--white-text-color);
+}
 
 .hero-buttum-tible:hover,
 .hero-buttum-tible:focus {
