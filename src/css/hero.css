@@ -104,7 +104,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 144px;
     margin-left: 85px;
     margin-right: 85px;
 }
@@ -187,7 +186,6 @@
     }
 
     .hero-map-and-btn-sec {
-        margin-top: 113px;
     }
 
     .hero-first-sec-paragraf {
@@ -221,7 +219,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 144px;
         margin-left: 47px;
         margin-right: 47px;
     }
