@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 320px) and (max-width: 414px) {
+@media screen and (min-width: 320px) and (max-width: 413px) {
   .suite-container {
     max-width: 384px;
     width: none;
@@ -202,7 +202,7 @@ body {
   color: var(--black-text-color);
 }
 
-@media screen and (min-width: 320px) and (max-width: 414px) {
+@media screen and (min-width: 320px) and (max-width: 413px) {
   .suite-main-photo {
     margin-left: auto;
     width: 244px;
