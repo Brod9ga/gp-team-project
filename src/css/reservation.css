@@ -1,0 +1,422 @@
+/* MODAL BOOK TABLE */
+
+.backdrop{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  
+  transition: opacity var(--transition), visibility var(--transition);
+  }
+  
+  .modal-table{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scaleX(1);
+  width: 290px;
+  height: 500px;
+  padding: 19px 15px 25px;
+  
+  background-color: var(--light-background-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  
+  transition: transform var(--transition);
+  }
+  
+  .backdrop.is-hidden .modal-table{
+  transform: translate(-50%, -50%) scaleX(0);
+  
+  }
+  
+  .modal-close{
+  display: block;
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background: var(--light-background-color);
+  margin-bottom: 15px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  
+  }
+  
+  .modal-close-icon{
+  stroke: var(--black-text-color);
+  
+  transition: stroke var(--transition);
+  
+  }
+  
+  .modal-close-icon:hover,
+  .modal-close-icon:focus {
+    stroke:var(--accent-yellow-color);
+  }
+  
+  .is-hidden{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  }
+  
+  .modal-title{
+  Font-family: "Times New Roman", sans-serif;
+  Font-weight: 700;
+  Font-size: 20px;
+  Line-height: 1.0;
+  Letter-spacing: 5%;
+  color: var(--black-text-color);
+  text-align: center;
+  
+  
+  margin-bottom: 30px;
+  }
+  
+  .book-table-wrap{
+  display: flex;
+  flex-direction: column;
+  
+  }
+  
+  
+  
+  .modal-field:not( :last-child) {
+  margin-bottom: 15px;
+  
+  }
+  
+  .input-wrap {
+  }
+  
+  .modal-input{
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid var(--brown-text-color);
+  border-radius: 2px;
+  outline: none;
+  
+  padding: 10px 20px 10px 10px;
+  
+  transition: border-color var(--transition);
+  
+  }
+  
+  .modal-input:focus{
+  border-color: var(--accent-yellow-color);
+  }
+  
+  .modal-input::placeholder{
+  Font-family: "Times New Roman", sans-serif;
+  Font-weight: 700;
+  Font-size: 15px;
+  Line-height: 100%;
+  Letter-spacing: 5%;
+  Color: #808080;
+  }
+  
+  
+  .input-text {
+  Font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  Font-size: 11px;
+  Line-height: 1.22;
+  Letter-spacing: 2%;
+  Color: var(--brown-text-color);
+  
+  }
+  
+  
+  .select{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  
+  width: 100%;
+  height: 40px;
+  color: var(--brown-text-color);
+  background-color: transparent;
+  border: 1px solid var(--brown-text-color);
+  border-radius: 2px;
+  cursor: pointer;
+  
+  padding: 10px 20px 10px 10px;
+  
+  font-family:'Times New Roman', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  Font-size: 15px;
+  Line-height: 100%;
+  Letter-spacing: 5%;
+  
+  color: #808080;
+  
+  transition: border-color var(--transition);
+  }
+  
+  
+  .select::-ms-expand{
+  display: none;
+  }
+  
+  
+  
+  .select:active,
+  .select:focus{
+  outline: none;
+  border-color: var(--accent-yellow-color);
+  
+  }
+  
+  .select-book-table-wrap{
+  position: relative;
+  }
+  
+  .select-book-table-wrap::before{
+   content: "";
+  
+   position: absolute;
+   top: 50%;
+   right: 10px;
+   transform: translateY(-50%);
+  
+   background-image: url(../Img/select.svg);
+   background-position: center;
+   background-size: cover;
+  
+  
+  
+   display: block;
+   width: 13px;
+   height: 8px;
+   background-color: transparent;
+   pointer-events: none;
+  
+  
+  }
+  
+  .select-book-day-wrap{
+  position: relative;
+  }
+  
+  .select-book-day-wrap::before{
+  content: "";
+  
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  
+  background-image: url(../Img/select.svg);
+  background-position: center;
+  background-size: cover;
+  
+  
+  
+  display: block;
+  width: 13px;
+  height: 8px;
+  background-color: transparent;
+  pointer-events: none;
+  
+  
+  }
+  
+  .modal-submit{
+  display: flex;
+  padding: 15px 10px;
+  min-width: 100%;
+  height: 45px;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--white-background-color);
+  cursor: pointer;
+  background-color: var(--footer-background-color);
+  border: 1px solid var(--accent-yellow-color);
+  margin-top: 40px;
+  
+  transition: color var(--transition), background-color var(--transition);
+  }
+  
+  .modal-submit:hover,
+  .modal-submit:focus {
+    background-color: var(--accent-yellow-color);
+    color: var(--black-text-color);
+  
+  }
+  
+  /* ---------MOBILE----------- */
+  
+  @media screen and (min-width: 414px){
+  
+  
+    .modal-table{
+      width: 410px;
+      height: 668px;
+      padding: 19px 19px 60px;
+    }
+  
+    .modal-title{
+      
+      Font-size: 24px;
+      Line-height: 1.15;
+      Letter-spacing: 5%;     
+    
+      margin-bottom: 44px;
+    }
+  
+    .modal-field {
+      margin-bottom: 25px;
+    
+    }
+  
+    .modal-input{
+      height: 52px;
+      margin-bottom: 5px;
+      
+    }
+  
+    .modal-input::placeholder{
+      Font-size: 20px;
+      Line-height: 1.15;
+  
+    }
+  
+    .input-text {
+      Font-size: 14px;
+      padding-left: 8px;
+     
+     }
+  
+     .select{
+     
+      width: 100%;
+      height: 52px;
+  
+      Font-size: 20px;
+      Line-height: 1.15;
+  
+      margin-bottom: 5px;
+    
+    }
+  
+    .modal-submit{
+      height: 64px;
+      
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      
+    }
+    
+    
+    
+    
+  }
+  
+  
+  /* ---------TABLET----------- */
+  
+  @media screen and (min-width: 1024px){
+  
+   
+    .modal-table{
+      
+      width: 712px;
+      height: 522px;
+      padding: 19px 19px 60px;
+    
+    }
+  
+    .book-table-wrap{
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+    
+    }
+  
+    .modal-title{
+      
+      Font-size: 40px;
+      Line-height: 100%;
+      Letter-spacing: 5%;     
+    
+      margin-bottom: 50px;
+    }
+  
+    .modal-input{
+      width: 288px;
+      height: 64px;
+     
+      
+    }
+  
+    .modal-input::placeholder{
+      Font-size: 24px;
+  
+    }
+  
+    .input-text {
+      Font-size: 16px;
+      
+     
+     }
+  
+     .select{
+     
+      width: 288px;
+      height: 64px;
+  
+      Font-size: 24px;
+     
+    
+    }
+  
+    .modal-submit{
+      min-width: 600px;
+      margin-top: 35px;
+      padding: 18px 117px;
+      
+      font-weight: 400;
+      font-size: 24px;
+      
+    }
+  
+    .select-book-table-wrap::before{
+     
+      width: 20px;
+      height: 12px;
+      
+   
+   }
+   
+   
+   
+   .select-book-day-wrap::before{
+  
+     width: 20px;
+     height: 12px;
+     
+   
+   }
+   
+    
+ 
+   
+     
+  }
+  
