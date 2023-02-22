@@ -36,7 +36,7 @@
 }
 
 .kitchen-subtitel {
-  font-family: "Times New Roman", sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -56,7 +56,7 @@
 }
 
 .kitchen-description-top {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -94,7 +94,7 @@
 
 .kitchen-description-bottom {
   max-width: 163px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -104,8 +104,11 @@
 }
 
 /*--------------- Kitchen Slides ---------------*/
-.kitchen-slides {
+.kitchen-picture-hidden {
   overflow: hidden;
+}
+
+.kitchen-slides {
   transform: translateX(15px);
 }
 
@@ -116,6 +119,10 @@
 
 .kitchen-slides-picture {
   width: 245px;
+}
+
+.kitchen-slides-item {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 }
 
 .kitchen-svg-list {
@@ -160,13 +167,12 @@
   }
 
   /*--------------- Kitchen Slides ---------------*/
-  .kitchen-slides {
-    overflow: hidden;
-    margin-left: 54px;
-  }
-
   .kitchen-slides-picture {
     width: 245px;
+  }
+  
+  .kitchen-slides {
+    margin-left: 54px;
   }
 }
 
@@ -212,7 +218,7 @@
     height: 524px;
     top: -32px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
-    
+
     margin-bottom: 0px;
   }
 
@@ -246,8 +252,10 @@
   }
 
   /*--------------- Kitchen Slides ---------------*/
-  .kitchen-slides {
+  .kitchen-pic-hidden {
     overflow: visible;
+  }
+  .kitchen-slides {
     transform: translateX(0);
   }
 
