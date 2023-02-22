@@ -212,6 +212,7 @@
     }
 
     .hotel-services {
+        gap: 40px;
         margin-right: 0;
         position: relative;
         transform: translateX(0);
@@ -273,6 +274,7 @@
 
     .hotel-services {
         top: -179px;
+        gap: 40px;
     }
 
     .hotel-text-bottom {
