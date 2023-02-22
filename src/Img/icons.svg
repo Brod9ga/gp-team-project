@@ -54,5 +54,9 @@
 
 
 </symbol>
+
+<symbol id="icon-modal-close" viewBox="0 0 32 32"> 
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M27.429 3.428l-24 24M3.429 3.428l24 24"></path> 
+</symbol>
 </defs>
 </svg>
