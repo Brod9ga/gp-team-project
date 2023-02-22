@@ -104,10 +104,6 @@
 }
 
 /*--------------- Kitchen Slides ---------------*/
-.kitchen-picture-hidden {
-  overflow: hidden;
-}
-
 .kitchen-slides {
   transform: translateX(15px);
 }
@@ -117,12 +113,16 @@
   gap: 24px;
 }
 
-.kitchen-slides-picture {
-  width: 245px;
+.kitchen-pic-hidden {
+  overflow: hidden;
 }
 
 .kitchen-slides-item {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+}
+
+.kitchen-slides-picture {
+  width: 245px;
 }
 
 .kitchen-svg-list {
@@ -167,12 +167,12 @@
   }
 
   /*--------------- Kitchen Slides ---------------*/
-  .kitchen-slides-picture {
-    width: 245px;
-  }
-  
   .kitchen-slides {
     margin-left: 54px;
+  }
+  
+  .kitchen-slides-picture {
+    width: 245px;
   }
 }
 
@@ -252,16 +252,17 @@
   }
 
   /*--------------- Kitchen Slides ---------------*/
-  .kitchen-pic-hidden {
-    overflow: visible;
-  }
   .kitchen-slides {
     transform: translateX(0);
   }
-
+  
   .kitchen-slides-list {
     justify-content: right;
     gap: 40px;
+  }
+  
+  .kitchen-pic-hidden {
+    overflow: visible;
   }
 
   .kitchen-slides-item {
