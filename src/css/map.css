@@ -71,11 +71,38 @@ ul {
   row-gap: 16px;
   margin-bottom: 32px;
 }
-.aor-rest-contacts,
-.aor-hotel-contacts {
+
+.aor-rest-contacts {
   display: flex;
   column-gap: 22px;
   align-items: center;
+}
+
+.contacts-rest-wrap {
+  display: flex;
+  align-items: center;
+  padding: 9px 8px 7px 8px;
+}
+
+.aor-hotel-contacts {
+  display: flex;
+  align-items: center;
+  column-gap: 54px;
+}
+
+.aor-hotel-contacts .aor-tel:first-of-type {
+  margin-right: 12px;
+}
+.contacts-hotel-wrap {
+  display: flex;
+  align-items: center;
+  padding: 9px 8px 7px 8px;
+}
+.contacts-map-wrap {
+  display: flex;
+  align-items: center;
+  padding: 8px 33px 7px 10px;
+  margin-left: 124px;
 }
 .aor-rest-text,
 .aor-hotel-text {
@@ -91,14 +118,9 @@ ul {
 .contacts-rest-wrap,
 .contacts-hotel-wrap,
 .contacts-map-wrap {
-  width: 134px;
-  height: 40px;
   background-color: var(--white-background-color);
   border: 0.5px solid #f3c653;
   border-radius: 2px;
-  display: flex;
-  align-items: center;
-  padding-left: 8px;
 }
 .aor-svgs {
   fill: var(--brown-text-color);
@@ -112,26 +134,6 @@ ul {
   letter-spacing: 0.02em;
   color: var(--dark-logo-color);
 }
-
-.aor-hotel-contacts {
-  column-gap: 54px;
-}
-
-.contacts-hotel-wrap {
-  width: 250px;
-}
-.contacts-hotel-wrap > .aor-tel:first-of-type {
-  margin-right: 12px;
-}
-.contacts-map-wrap {
-  width: 215px;
-  height: 59px;
-  padding: 8px 33px 7px 10px;
-  margin-left: auto;
-}
-.mob-br {
-  display: none;
-}
 .aor-map-address {
   font-family: 'Montserrat';
   font-style: normal;
@@ -140,9 +142,7 @@ ul {
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: var(--dark-logo-color);
-  width: 183px;
 }
-
 .map-picture {
   display: block;
   border: 1px solid #bababa;
