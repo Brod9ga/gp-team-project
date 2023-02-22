@@ -1,7 +1,7 @@
 /* -------------------------- TRIPLE NUMBER ------------------------------- */
 
 .triple-number {
-    padding-bottom: 112px;
+    padding-bottom: 32px;
     background-color: #F0ECD6;
     
 }
@@ -22,7 +22,8 @@ position: relative;
     max-width: 244px;
         max-height: 322px;
     position: absolute;
-   
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
 }
 
 .triple-number-top-wrap {
@@ -116,8 +117,15 @@ background: #000000;
 border: 2px solid #FFFFFF;
 border-radius: 25px;
 }
+
+.triple-number-buttons:hover,
+.triple-number-buttons:focus {
+    background:  #F3C653;
+    color: #000000 ;
+}
 .triple-number-images {
     margin-top: 386px;
+    margin-bottom: 32px;
     transform: translateX(40%);
   
     gap: 16px;
@@ -129,6 +137,7 @@ border-radius: 25px;
 .triple-number-min-images{
     width: 194px;
     height: 194px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -358,6 +367,3 @@ justify-content: flex-end;
             
           }
 }
-   
-
-/* -------------------------- ------------- ------------------------------- */

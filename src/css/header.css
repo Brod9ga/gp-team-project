@@ -3,35 +3,12 @@
     src: url(../fonts/FilmP3.ttf);
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding-left: 0;
-}
-
 .header-container,
 .sec-container {
     max-width: 1110px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-}
-
-.list {
-    list-style: none;
-}
-
-.link {
-    text-decoration: none;
 }
 
 .header {
@@ -101,9 +78,34 @@ ul {
     align-items: center;
     fill: var(--accent-yellow-color);
     outline: 1px solid var(--accent-yellow-color);
+    /* border-color: var(--accent-yellow-color); */
     border-radius: 2px;
     margin-right: 75px;
     padding: 6px;
+}
+
+.restorant-tel-svg:hover,
+.restorant-tel-svg:focus {
+    fill: var(--light-logo-color);
+    outline: 1px solid var(--light-logo-color);
+}
+
+.header-list-contac-item-one:hover,
+.header-list-contac-item-one:focus,
+.header-contact:focus,
+.header-contact:hover {
+    fill: var(--light-logo-color);
+    color: var(--light-logo-color);
+}
+
+.instagram-header {
+    fill: #F3C653;
+    background-color: transparent;
+}
+
+.instagram-header:hover,
+.instagram-header:focus {
+    fill: var(--light-logo-color);
 }
 
 .header-restorant-tel-number {
@@ -115,19 +117,12 @@ ul {
     margin-right: 0;
 }
 
-/* .header-link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #F3C653;
-    fill: #F3C653;
-} */
+
 
 .header-link:hover,
 .header-link:focus {
-    color: #404bbf;
+    color: var(--white-background-color);
+    transition: var(--transition);
 }
 
 
@@ -139,14 +134,38 @@ ul {
     margin-right: 23px;
 }
 
-.instagram-header {
-    fill: #F3C653;
+
+
+
+
+
+@media screen and (min-width:280px) {
+    .header-list-contact {
+        display: none;
+    }
+
+    .logo {
+        margin-right: auto;
+    }
+
+    .header-item {
+        display: none;
+    }
+
+    .header-item-phone {
+        display: block;
+        margin-right: auto;
+    }
+
+    .header-item-restorant {
+        margin-right: auto;
+    }
+
+    .header-item-hotel {
+        margin-right: auto;
+    }
+
 }
-
-
-
-
-
 
 
 @media screen and (min-width:414px) {
