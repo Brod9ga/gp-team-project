@@ -118,6 +118,24 @@
     fill: var(--accent-yellow-color);
 }
 
+.instagram:hover {
+    fill: var(--white-text-color);
+}
+
+.instagram:focus {
+    fill: var(--white-text-color);
+}
+
+.facebook:hover,
+.facebook:focus {
+    fill: var(--white-text-color);
+}
+
+.telegram:hover,
+.telegram:focus {
+    fill: var(--white-text-color);
+}
+
 .hero-buttum-tible:hover,
 .hero-buttum-tible:focus {
     background: var(--white-text-color);
@@ -127,10 +145,11 @@
 .hero-buttum-number:focus {
     background: var(--white-text-color);
 }
-.hero-pin-adres:hover{
+
+.hero-pin-adres:hover {
     fill: var(--white-text-color);
     border: 1px solid var(--white-text-color);
-        border-radius: 2px;
+    border-radius: 2px;
 }
 
 
