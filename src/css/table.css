@@ -67,7 +67,7 @@ img {
   padding-bottom: 40px;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.65);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(//Img/Homepage-mob/Homepage-hero-mob2-1x.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/Img/Homepage-mob/Homepage-hero-mob2-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -198,11 +198,11 @@ img {
   background: rgba(0, 0, 0, 0.4);
   border: 2px solid var(--white-background-color);
   border-radius: 25px;
-  width: 247px;
+  width: 236px;
   height: 48px;
-  padding: 14px 24px;
-  display: block;
-  margin-bottom: 32px;
+  padding: 14px 16px;
+  display: block;    
+  margin-bottom: 16px;
   transition-property: background-color, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -212,27 +212,7 @@ img {
   text-align: center;
 }
 
-.table-menu {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  color: var(--accent-yellow-color);
-  background: rgba(0, 0, 0, 0.4);
-  border: 2px solid var(--white-background-color);
-  border-radius: 25px;
-  padding: 12px 36px;
-  margin: 0 auto;
-  transition-property: background-color, border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .modal-tab-btn:hover,
 .table-menu:hover,
