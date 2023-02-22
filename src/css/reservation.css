@@ -28,6 +28,7 @@
   transition: transform var(--transition);
   }
   
+  
   .backdrop.is-hidden .modal-table{
   transform: translate(-50%, -50%) scaleX(0);
   
@@ -59,12 +60,12 @@
     stroke:var(--accent-yellow-color);
   }
   
-  .is-hidden{
+  /* .is-hidden{
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   }
-  
+   */
   .modal-title{
   Font-family: "Times New Roman", sans-serif;
   Font-weight: 700;
