@@ -25,6 +25,7 @@
 @import url('table.css');
 @import url('triple.css');
 @import url('footer.css');
+@import url('js.css');
 
 :root {
   --white-background-color: #ffffff;

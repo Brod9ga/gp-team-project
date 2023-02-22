@@ -12,7 +12,7 @@ background-color: rgba(46, 47, 66, 0.4);
 transition: opacity var(--transition), visibility var(--transition);
 }
 
-.modal{
+.backdrop-modal{
 position: absolute;
 top: 50%;
 left: 50%;
@@ -32,6 +32,7 @@ transition: transform var(--transition);
 transform: translate(-50%, -50%) scaleX(0);
 
 }
+
 
 .modal-close{
 display: block;
