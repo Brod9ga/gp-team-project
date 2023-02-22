@@ -211,7 +211,7 @@ color: var(--white-background-color);
     width: 890px;
     justify-content: space-around;
     align-items: center;
-    
+    /* 1 */
   }
 }
 
