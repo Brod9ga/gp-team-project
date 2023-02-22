@@ -3,37 +3,7 @@
     src: url(../fonts/FilmP3.ttf);
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding-left: 0;
-}
-
-.sec-container {
-    max-width: 1110px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
-.list {
-    list-style: none;
-}
-
-.link {
-    text-decoration: none;
-}
-
-.first-sec-room {
+.room-first-sec {
     max-width: 1440px;
     height: 720px;
     margin-left: auto;
@@ -46,65 +16,67 @@ ul {
     background-size: cover;
 }
 
-.first-sec-text {
+
+.room-sec-container {
+    width: 100%;
+    padding-top: 164px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.room-map-for-mobile-only {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 65px;
+}
+
+.room-first-sec-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-.first-sec-title {
-    margin-top: 164px;
-    font-family: FilmP3;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 128px;
-    line-height: 1.078;
-    letter-spacing: 0.3em;
-    color: var(--light-logo-color);
-}
-
-.first-sec-paragraf {
-    margin-top: 32px;
-    Font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--light-logo-color);
-}
-
-.instagram,
-.facebook,
-.telegram,
-.pin-tu-map {
+.room-pin-adres,
+.room-pin-adres-mobile {
     fill: var(--accent-yellow-color);
-
 }
 
-.hero-link-text {
-    display: flex;
-    align-items: center;
-}
-
-.hero-link-text-text {
+.room-text-whid-pin {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.25;
+    line-height: 0.8;
     letter-spacing: 0.01em;
     color: #E5E5E5;
 }
 
-.hero-buttums-list {
-    display: flex;
-    align-items: center;
-    gap: 60px;
+.room-first-sec-title {
+    margin-left: 40px;
+    font-family: FilmP3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+    color: var(--white-text-color);
 }
 
-.hero-buttum-tible {
+.room-first-sec-paragraf {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--white-text-color);
+}
+
+
+.room-buttum-tible,
+.room-buttum-number {
     width: 258px;
     height: 48px;
     background: rgba(0, 0, 0, 0.4);
@@ -119,180 +91,235 @@ ul {
     color: var(--accent-yellow-color);
 }
 
-.hero-buttum-number {
-    width: 254px;
-    height: 48px;
+.room-map-and-btn-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 85px;
     margin-right: 85px;
-    background: rgba(0, 0, 0, 0.4);
-    border: 2px solid #FFFFFF;
-    border-radius: 25px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
 }
 
-.hero-link-text {
-    outline: 1px solid var(--accent-yellow-color);
-    padding: 15px;
+.room-buttums-list {
+    display: flex;
 }
 
-@media screen and (min-width:414px) {
+.instagram,
+.facebook,
+.telegram {
+    fill: var(--accent-yellow-color);
+}
 
-    .first-sec-title {
-        margin-left: 40px;
-        font-weight: 700;
-        font-size: 96px;
-        line-height: 1.07;
-        letter-spacing: 0.3em;
+.instagram:hover,
+.instagram:focus {
+    fill: var(--white-text-color);
+}
+
+.facebook:hover,
+.facebook:focus {
+    fill: var(--white-text-color);
+}
+
+.telegram:hover,
+.telegram:focus {
+    fill: var(--white-text-color);
+}
+
+.restorant-buttum-tible:hover,
+.restorant-buttum-tible:focus {
+    background: var(--white-text-color);
+}
+
+.restorant-buttum-number:hover,
+.restorant-buttum-number:focus {
+    background: var(--white-text-color);
+}
+
+.restorant-pin-adres:hover {
+    fill: var(--white-text-color);
+    border: 1px solid var(--white-text-color);
+    border-radius: 2px;
+}
+
+
+
+@media screen and (min-width:320px) {
+    .room-sec-container {
+        width: 100%;
+        padding-top: 95px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
     }
 
-    .first-sec-paragraf {
-        margin-top: 24px;
-        Font-family: Montserrat, sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 2;
-        letter-spacing: 0.02em;
+    .room-map-and-btn-sec {
+        justify-content: center;
     }
 
-
-    .hero-soc-link-room {
+    .room-soc-list {
         display: flex;
         margin-left: 16px;
-        margin-top: 120px;
-    }
-
-    .hero-soc-list {
-        display: flex;
         gap: 23px;
+        margin-top: 30px;
     }
 
-    .hero-buttums-list {
-        margin-top: 100px;
+    .room-pin-adres {
+        display: none;
+    }
+
+    .room-buttums-list {
         display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 24px;
     }
 
-    .hero-buttum-tible,
-    .hero-buttum-number {
-        width: 236px;
-        height: 48px;
-    }
-
-    .hero-buttum-number {
-        margin-left: 85px;
-    }
-
-    .hero-link-text {
-        position: absolute;
-        height: 47px;
-        left: 189px;
-        top: 84px;
-    }
-
-    .hero-link-text {
+    .room-pin-adres-mobile {
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(243, 198, 83, 0.7);
+        border-radius: 2px;
         width: 210px;
-        outline: 1px solid var(--accent-yellow-color);
-        padding: 1px;
+        height: 47px;
     }
 
-    .hero-link-text-text {
+    .room-text-whid-pin-mobile {
         font-family: Montserrat;
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
-        line-height: 2;
+        line-height: 1, 25;
         letter-spacing: 0.01em;
         color: #E5E5E5;
     }
 
+    .room-first-sec-paragraf {
+        margin-top: 24px;
+    }
+
 }
+
+@media screen and (min-width:414px) {}
 
 
 @media screen and (min-width:1024px) {
-    .first-sec-room {
+    .room-first-sec {
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
             url(../Img/Hotel-tablet/hotel-hero-tablet1-1x.jpg);
     }
 
-    .first-sec-title {
-        margin-top: 188px;
-        font-weight: 700;
-        font-size: 128px;
-        line-height: 1;
-        letter-spacing: 0.3em;
-    }
-
-    .first-sec-paragraf {
-        margin-top: 16px;
-        Font-family: Montserrat, sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 2;
-        letter-spacing: 0.02em;
-    }
-
-    .hero-soc-link-room {
-        display: flex;
+    .room-sec-container {
+        width: 100%;
+        padding-top: 164px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin: 0 auto;
     }
 
-    .hero-soc-list {
-        margin-top: 10px;
-        margin-left: 48px;
+    .room-map-and-btn-sec {
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 47px;
+        margin-right: 47px;
+    }
+
+    .room-buttums-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+
+    .room-soc-list {
+        display: flex;
+        margin-left: 16px;
+        gap: 23px;
+        margin-top: 28px;
+    }
+
+    .room-pin-adres,
+    .room-pin-adres-mobile {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        border: 1px solid rgba(243, 198, 83, 0.7);
+        border-radius: 2px;
+        width: 285px;
+        height: 56px;
+    }
+
+    .room-map-for-mobile-only {
+        display: none;
+    }
+
+    .room-first-sec-title {
+        font-family: FilmP3;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 128px;
+        line-height: 1.078;
+        letter-spacing: 0.3em;
+        color: var(--white-text-color);
+    }
+
+    .room-first-sec-paragraf {
+        margin-top: 32px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--white-text-color);
+    }
+
+    .room-soc-list {
+        display: flex;
+        margin-left: 16px;
         gap: 23px;
     }
 
-    .hero-map-and-btn-sec-room {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 47px;
-        margin-top: 125px;
-        align-items: end;
-    }
-
-    .hero-link-text {
-        position: static;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 2;
-        letter-spacing: 0.01em;
-    }
-
-    .hero-buttums-list {
-        margin-top: 135px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
 }
-/* vau */
 
 @media screen and (min-width:1280px) {
-    .first-sec-room {
+    .room-first-sec {
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
             url(../Img/Hotel/hotel-hero1-1x.jpg);
     }
 
-    .hero-soc-link-room {
+    .room-sec-container {
+        width: 100%;
+        padding-top: 164px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+
+    .room-first-sec-title {
+        font-family: FilmP3;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 128px;
+        line-height: 1.078;
+        letter-spacing: 0.3em;
+        color: var(--white-text-color);
+    }
+
+    .room-first-sec-paragraf {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--white-text-color);
+    }
+
+    .room-soc-link {
         display: none;
-
     }
 
-    .hero-map-and-btn-sec-room {
+    .room-buttums-list {
         display: flex;
-        justify-content: space-between;
-        margin-left: 85px;
-        margin-top: 105px;
+        gap: 60px;
     }
-
 }
