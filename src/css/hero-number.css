@@ -1,12 +1,197 @@
-.hero-number-section {
+.number-sec-container {
+    width: 100%;
+    padding-top: 340px;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-bottom: 22px;
+    margin: 0 auto;
+}
+
+.number-sec {
     max-width: 1440px;
     height: 720px;
     margin-left: auto;
     margin-right: auto;
-    background-image:
-        url(../Img/Hotel/hotel-hero1-1x.jpg);
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url(../Img/Hotel-moob/hotel-hero-mob1-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
 
+.arrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-arrow-left {
+    stroke: #F3C653;
+    background-color: (rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
+}
+
+.number-pin-tu-map {
+    fill: var(--accent-yellow-color);
+}
+
+.number-text-whid-pin-mobile {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    color: #E5E5E5;
+}
+
+.number-pin-adres-mobile {
+    width: 285px;
+    height: 56px;
+}
+
+.number-arrow-rite {
+    stroke: #F3C653;
+    background-color: (rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
+}
+
+.number-title {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.13;
+    letter-spacing: 0.05em;
+    color: var(--white-text-color);
+}
+
+.number-paragraf {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--white-text-color);
+}
+
+.number-btn {
+    width: 232px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: var(--accent-yellow-color);
+}
+
+.number-text-and-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-pin-adres-mobile {
+    fill: var(--accent-yellow-color);
+}
+
+@media screen and (min-width:320px) {
+    .number-sec-container {
+        width: 100%;
+        padding-top: 240px;
+        padding-left: 47px;
+        padding-right: 47px;
+        padding-bottom: 22px;
+        margin: 0 auto;
+    }
+
+    .number-pin-adres-mobile {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        width: 210px;
+        border: 1px solid rgba(243, 198, 83, 0.7);
+        border-radius: 2px;
+    }
+
+    .restorant-pin-adres-mobile,
+    .restorant-pin-tu-map,
+    .restorant-text-whid-pin-mobile {
+        display: none;
+        outline: 0px solid transparent;
+    }
+
+    .number-map-for-mobile-only {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 75px;
+    }
+}
+
+@media screen and (min-width:414px) {
+    .number-map-for-mobile-only {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .number-sec {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+            url(../Img/Hotel-tablet/hotel-hero-tablet1-1x.jpg);
+    }
+
+    .number-map-for-mobile-only {
+        display: none;
+    }
+
+    .number-title {
+        margin-top: 98px;
+    }
+
+    .number-paragraf {
+        width: 400px;
+    }
+
+    .number-text-and-btn {
+        margin-top: 24px;
+        align-items: flex-end;
+    }
+
+    .number-adres-soc-link {
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        gap: 41px;
+    }
+
+    .number-soc-list {
+        display: flex;
+        gap: 23px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .number-sec {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+            url(../Img/Hotel/hotel-hero1-1x.jpg);
+    }
+
+    .number-title {
+        margin-top: 122px;
+    }
+
+    .number-paragraf {
+        width: 400px;
+    }
+
+    .number-text-and-btn {
+        margin-top: 24px;
+    }
+
+    .number-adres-soc-link {
+        display: none;
+    }
 }
