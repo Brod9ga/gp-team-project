@@ -13,11 +13,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 80px;
 }
 
 .restorant-sec-container {
   width: 100%;
-  padding-top: 164px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -76,13 +76,14 @@
   font-family: Times New Roman;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 29px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: var(--white-text-color);
 }
 
-.restorant-buttum-tible {
+.restorant-buttum-tible,
+.restorant-buttum-number {
   width: 258px;
   height: 48px;
   background: rgba(0, 0, 0, 0.4);
@@ -95,25 +96,6 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--accent-yellow-color);
-}
-
-.restorant-buttum-number {
-  background: rgba(0, 0, 0, 0.4);
-  border: 2px solid #ffffff;
-  border-radius: 25px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  color: var(--accent-yellow-color);
-
-  padding: 13px 41px;
-}
-
-.rest-menu {
-  margin-top: 12px;
 }
 
 .restorant-map-and-btn-sec {
@@ -172,7 +154,6 @@
 
   .restorant-sec-container {
     width: 100%;
-    padding-top: 95px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -229,6 +210,9 @@
 }
 
 @media screen and (min-width: 414px) {
+  .restorant-first-sec-paragraf-two {
+    font-size: 32px;
+  }
   .restorant-map-and-btn-sec {
     margin-top: 98px;
     justify-content: center;
@@ -250,7 +234,7 @@
   }
 
   .restorant-map-and-btn-sec {
-    margin-top: 135px;
+    margin-top: 57px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -267,7 +251,7 @@
 
   .restorant-soc-list {
     display: flex;
-    margin-left: 16px;
+    margin-left: 47px;
     gap: 23px;
     margin-top: 28px;
   }
@@ -319,11 +303,11 @@
     color: var(--white-text-color);
   }
 
-  .restorant-soc-list {
+  /* .restorant-soc-list {
     display: flex;
     margin-left: 16px;
     gap: 23px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1280px) {
