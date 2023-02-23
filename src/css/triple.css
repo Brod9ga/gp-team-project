@@ -265,6 +265,7 @@ justify-content: flex-end;
     .triple-number-buttom {
         display: flex;
         flex-direction: inherit;
+        overflow-x: visible;
     }
     
     .triple-number-buttom-wrap{

@@ -59,11 +59,11 @@
     stroke:var(--accent-yellow-color);
   }
   
-  .is-hidden{
+   .is-hidden{
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  }
+  } 
   
   .modal-title{
   Font-family: "Times New Roman", sans-serif;
@@ -91,8 +91,7 @@
   
   }
   
-  .input-wrap {
-  }
+  
   
   .modal-input{
   width: 100%;
