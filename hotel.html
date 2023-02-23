@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/gp-team-project/assets/new-7ae64c72.js"></script>
-    <link rel="stylesheet" href="/gp-team-project/assets/new-d00b06dc.css">
+    <link rel="stylesheet" href="/gp-team-project/assets/new-3d8abb84.css">
   </head>
   <body>
     <header class="header">
@@ -267,12 +267,31 @@
     <div class="container">
        <div class="triple-number-top"></div>
        <ul class="riple-number-top-list">
-         <li class="triple-number-top-item">
-      <img src="./img/Hotel/hotel-main1-1x.jpg" alt="triple-number-photo"
-      srcset="./img/Hotel/hotel-main1-1x.jpg , 
-      ./img/Hotel/hotel-main1-2x.jpg  "
-      >
-         </li>
+        <picture class="triple-number-top-item">
+          <source
+            srcset="/gp-team-project/assets/hotel-main1-1x-d5c3890d.jpg 1x, /gp-team-project/assets/hotel-main1-2x-a2ac5376.jpg 2x"
+            media="(min-width: 1280px)"
+            type="image/jpeg"
+            width="460"
+          />
+          <source
+            srcset="/gp-team-project/assets/hotel-main-tablet1-1x-949d81b3.jpg 1x, /gp-team-project/assets/hotel-main-tablet1-2x-a2060dbb.jpg 2x"
+            media="(min-width: 1024px)"
+            type="image/jpeg"
+            width="400"
+          />
+          <source
+            srcset="/gp-team-project/assets/hotel-main-mob1-1x-ebcccc15.jpg 1x, /gp-team-project/assets/hotel-main-mob1-2x-9efe88fc.jpg 2x"
+            media="(min-width: 320px)"
+            type="image/jpeg"
+            width="244"
+          />
+          <img
+            src="/gp-team-project/assets/hotel-main-mob1-1x-ebcccc15.jpg"
+            alt="double room"
+            width="244"
+          />
+        </picture>
        </ul>
  
        <div class="triple-number-top-wrap">
@@ -280,7 +299,7 @@
          <p class="triple-number-pre-title">
              Amet minim mollit non
          </p>
-          <h2 class="triple-number-logo">MIMIHO</h2>
+          <a href="../index.html"><h2 class="triple-number-logo">MIMIHO</h2></a>
        
          <h3 class="triple-number-title">
              ТРЬОХМІСНИЙ НОМЕР
@@ -296,23 +315,60 @@
        <div class="container triple-number-buttom">
 
            <div class="triple-number-buttom-wrap">
-               <button type="button" class="triple-number-buttons">Детальніше</button>
-               <button type="button" class="triple-number-buttons">Переглянути ціни</button>
+               <button type="button" class="triple-number-buttons"><a href="./apartments.html">Детальніше</a></button>
+               <button type="button" class="triple-number-buttons js-open-modal" data-modal="3-1">Переглянути ціни</button>
               
            </div>
 
-        <div class="triple-img-wrap"> 
+        <div class="triple-img-wrap "> 
             <ul class="triple-number-images">
-            <li class="triple-number-min-images">
-            <img src="./img/Hotel/hotel-main2-1x.jpg" alt="bath-photo"
-            srcset="./img/Hotel/hotel-main2-1x.jpg,
-            ./img/Hotel/hotel-main2-2x.jpg">
-            </li>
-            <li class="triple-number-min-images">
-                <img src="./img/Hotel/hotel-main3-1x.jpg" alt="tea-photo"
-                srcset="./img/Hotel/hotel-main3-1x.jpg,
-                ./img/Hotel/hotel-main3-2x.jpg">     
-            </li>
+              <li class="suite-photos-item">
+                <picture class="suite-photo">
+                  <source
+                    srcset="/gp-team-project/assets/hotel-main2-1x-9eb0d870.jpg 1x, /gp-team-project/assets/hotel-main2-2x-eb28ca79.jpg 2x"
+                    media="(min-width: 1280px)"
+                    type="image/jpeg"
+                    width="254"
+                    height="254"
+                  />
+                  <source
+                    srcset="/gp-team-project/assets/hotel-main-mob3-1x-e9a3cda9.jpg 1x, /gp-team-project/assets/hotel-main-mob3-2x-814f096b.jpg 2x"
+                    media="(min-width: 320px)"
+                    type="image/jpeg"
+                    width="194"
+                    height="194"
+                  />
+                  <img
+                    src="/gp-team-project/assets/hotel-main-mob3-1x-e9a3cda9.jpg"
+                    alt=""
+                    width="194"
+                    height="194"
+                  />
+                </picture>
+              </li>
+              <li class="suite-photos-item">
+                <picture class="suite-photo">
+                  <source
+                    srcset="/gp-team-project/assets/hotel-main3-1x-4ce7547f.jpg 1x, /gp-team-project/assets/hotel-main3-2x-d4b2b566.jpg 2x"
+                    media="(min-width: 1280px)"
+                    type="image/jpeg"
+                    width="254"
+                    height="254"
+                  />
+                  <source
+                    srcset="/gp-team-project/assets/hotel-main-mob2-1x-72f773d7.jpg 1x, /gp-team-project/assets/hotel-main-mob2-2x-64f62a35.jpg 2x"
+                    media="(min-width: 320px)"
+                    type="image/jpeg"
+                    width="194"
+                    height="194"
+                  />
+                  <img
+                    src="/gp-team-project/assets/hotel-main-mob2-1x-72f773d7.jpg"
+                    alt=""
+                    width="194"
+                    height="194"
+                  />
+                </picture>
         </ul>
 
         <div class=" triple-wrapper-btns-list">
@@ -320,14 +376,14 @@
              <li>
                 <button class="triple-arrow-btn">
                  <svg width="32" height="32" class="triple-arrow-btn-icon">
-                   <use href="/gp-team-project/assets/icons-fb1066ed.svg#icon-arrow-left"></use>
+                   <use href="../Img/icons.svg#icon-arrow-left"></use>
                  </svg>
                 </button>
              </li>
              <li>
                 <button class="triple-arrow-btn">
                  <svg width="32" height="32" class="triple-arrow-btn-icon">
-                   <use href="/gp-team-project/assets/icons-fb1066ed.svg#icon-arrow-right"></use>
+                   <use href="../Img/icons.svg#icon-arrow-right"></use>
                  </svg>
                 </button>
               </li>
@@ -337,9 +393,9 @@
 
        </div>
 
-    </div>
+    
 
-</section>
+   </section>
       <!-- Славик Мельничук -->
       <section class='double'>
   <div class='container'>
@@ -452,11 +508,11 @@
       <div>
         <ul class="accept-btns">
           <li>
-            <a href="">
+            <a href="./apartments.html">
               <button class="accept-btn">Детальніше</button></a
             >
           </li>
-          <li><button class="accept-btn">Переглянути ціни</button></li>
+          <li><button class="accept-btn js-open-modal" data-modal="3-1">Переглянути ціни</button></li>
         </ul>
       </div>
     </div>
@@ -595,7 +651,7 @@
       </svg>
     </button>
     <p class="price-title">ЦІНИ НА НОМЕР</p>
-    <p class="price-subject">Двомісний люкс</p>
+    <!-- <p class="price-subject">Двомісний люкс</p> -->
     <p class="price-subtitle">Категорія номеру</p>
 
     <form class="modal-price">
@@ -652,9 +708,9 @@
   </div>
 
   <!-- ===============ТРЬОХМІСНИЙ НОМЕР=============== -->
-  <div class="backdrop-price modal" data-modal="3-2">
+  <div class="backdrop-price modal" >
     <div class="modality-price">
-      <button type="button" class="modality-price-close js-modal-close" >
+      <button type="button" class="modality-price-close" js-modal-close>
         <svg class="modality-price-icon" width="24" height="24">
           <use href="/gp-team-project/assets/icons-fb1066ed.svg#icon-222"></use>
         </svg>
