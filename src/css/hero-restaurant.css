@@ -46,7 +46,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.8;
+  line-height: 1.25;
   letter-spacing: 0.01em;
   color: #e5e5e5;
 }
@@ -225,6 +225,10 @@
       url(../Img/Restaurant-tablet/restaurant-hero-tablet1-1x.jpg);
   }
 
+  /* .restorant-map {
+    padding: 9px;
+  } */
+
   .restorant-sec-container {
     width: 100%;
     padding-top: 164px;
@@ -260,11 +264,12 @@
   .restorant-pin-adres-mobile {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 0px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
     width: 285px;
     height: 56px;
+    padding-left: 9px;
   }
 
   .restorant-map-for-mobile-only {
