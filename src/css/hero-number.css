@@ -89,6 +89,21 @@
     color: var(--accent-yellow-color);
 }
 
+.number-btn-dovn {
+    left: 109px;
+    top: 652px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #F3C653;
+}
+
 .number-text-and-btn {
     display: flex;
     justify-content: space-between;
@@ -99,6 +114,18 @@
 }
 
 @media screen and (min-width:320px) {
+    .number-btn {
+        display: none;
+    }
+.nomber-dovn{
+    display: flex;
+    gap: 72px;
+}
+
+    .number-pin-adres-mobile {
+        display: none;
+    }
+
     .number-sec-container {
         width: 100%;
         padding-top: 240px;
@@ -135,12 +162,30 @@
     .number-map-for-mobile-only {
         margin-right: 20px;
     }
+
+    .dovn {
+        display: none;
+    }
 }
 
 @media screen and (min-width:1024px) {
     .number-sec {
         background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
             url(../Img/Hotel-tablet/hotel-hero-tablet1-1x.jpg);
+    }
+
+    .number-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .number-btn-dovn {
+        display: none;
+    }
+
+    .dovn {
+        display: flex;
     }
 
     .number-map-for-mobile-only {
