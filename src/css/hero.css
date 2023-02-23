@@ -236,12 +236,12 @@
 }
 
 @media screen and (min-width: 414px) {
-  .hero-pin-adres-mobile {
+  /* .hero-pin-adres-mobile {
     width: 209px;
     height: 45px;
     font-size: 12px;
     padding: 9px;
-  }
+  } */
 
   .hero-pin-tu-map {
     margin-right: 12px;
@@ -254,6 +254,17 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .hero-pin-adres-mobile {
+    width: 209px;
+    height: 45px;
+    font-size: 12px;
+    padding: 9px;
+  }
+
+  .hero-pin-tu-map {
+    margin-right: 12px;
+  }
+
   .hero-first-sec {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../Img/Homepage-tablet/Homepage-hero-tablet1-1x.jpg);
@@ -294,11 +305,16 @@
   .hero-pin-adres-mobile {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 0px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
     width: 285px;
-    height: 56px;
+    height: 54px;
+    font-size: 16px;
+    line-height: 1.22;
+    letter-spacing: 0.01em;
+    color: #e5e5e5;
+    padding: 5px;
   }
 
   .hero-map-for-mobile-only {
