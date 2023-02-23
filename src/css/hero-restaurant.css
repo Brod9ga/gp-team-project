@@ -82,7 +82,22 @@
   color: var(--white-text-color);
 }
 
-.restorant-buttum-tible,
+.restorant-buttum-tible {
+  width: 258px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--accent-yellow-color);
+}
+
+
 .restorant-buttum-number {
   width: 258px;
   height: 48px;
@@ -96,6 +111,11 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--accent-yellow-color);
+  padding: 13px 41px;
+}
+
+.rest-menu {
+  margin-top: 12px;
 }
 
 .restorant-map-and-btn-sec {
