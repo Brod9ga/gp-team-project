@@ -73,6 +73,16 @@
     color: var(--white-text-color);
 }
 
+.room-first-sec-paragraf-two {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    color: var(--white-text-color);
+}
+
 .room-buttum-tible,
 .room-buttum-number {
     width: 258px;
@@ -122,17 +132,17 @@
     fill: var(--white-text-color);
 }
 
-.restorant-buttum-tible:hover,
-.restorant-buttum-tible:focus {
+.room-buttum-tible:hover,
+.room-buttum-tible:focus {
     background: var(--white-text-color);
 }
 
-.restorant-buttum-number:hover,
-.restorant-buttum-number:focus {
+.room-buttum-number:hover,
+.room-buttum-number:focus {
     background: var(--white-text-color);
 }
 
-.restorant-pin-adres:hover {
+.room-pin-adres:hover {
     fill: var(--white-text-color);
     border: 1px solid var(--white-text-color);
     border-radius: 2px;
@@ -140,6 +150,11 @@
 
 
 @media screen and (min-width:320px) {
+
+    .room-map-for-mobile-only {
+        margin-right: 15px;
+    }
+
     .room-sec-container {
         width: 100%;
         padding-top: 95px;
@@ -149,6 +164,7 @@
     }
 
     .room-map-and-btn-sec {
+        margin-top: 189px;
         justify-content: center;
     }
 
@@ -192,9 +208,18 @@
         margin-top: 24px;
     }
 
+    .room-first-sec-paragraf-two {
+        margin-top: 40px;
+    }
+
 }
 
-@media screen and (min-width:414px) {}
+@media screen and (min-width:414px) {
+    .room-map-and-btn-sec {
+        margin-top: 189px;
+        justify-content: center;
+    }
+}
 
 @media screen and (min-width:1024px) {
     .room-first-sec {
@@ -211,6 +236,7 @@
     }
 
     .room-map-and-btn-sec {
+        margin-top: 235px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -268,6 +294,17 @@
         color: var(--white-text-color);
     }
 
+    .room-first-sec-paragraf-two {
+        margin-top: 64px;
+        font-family: Times New Roman;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.138;
+        letter-spacing: 0.05em;
+        color: var(--white-text-color);
+    }
+
     .room-soc-list {
         display: flex;
         margin-left: 16px;
@@ -310,6 +347,16 @@
         color: var(--white-text-color);
     }
 
+    .room-first-sec-paragraf-two {
+        font-family: Times New Roman;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.138;
+        letter-spacing: 0.05em;
+        color: var(--white-text-color);
+    }
+
     .room-soc-link {
         display: none;
     }
@@ -317,5 +364,14 @@
     .room-buttums-list {
         display: flex;
         gap: 60px;
+    }
+
+    .room-map-and-btn-sec {
+        margin-top: 255px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 47px;
+        margin-right: 47px;
     }
 }
