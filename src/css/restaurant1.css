@@ -151,6 +151,8 @@
     .container-rest {
         max-width: 384px;
         width: none;
+        padding-bottom: 20px;
+        /* margin-top: 20px; */
     }
 }
 
@@ -317,11 +319,13 @@
 
     .svg-rest {
         width: 1110px;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
+        padding-right: 0;
     }
 
     .rest-slaid {
         margin-top: -179px;
+        padding-right: 0;
     }
 
 }
