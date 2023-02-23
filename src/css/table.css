@@ -11,7 +11,7 @@
   padding-bottom: 40px;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.65);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/Img/Homepage-mob/Homepage-hero-mob2-1x.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/Homepage-mob/Homepage-hero-mob2-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -177,6 +177,7 @@
   .table-text {
     width: 259px;
     margin-right: 0;
+    
   }
 
 }
@@ -189,6 +190,8 @@
   .table-text {
     width: 259px;
     margin-right: 0;
+    margin-left: 109px;
+    margin-bottom: 48px;
   }
 
   .cont-tab {

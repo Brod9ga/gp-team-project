@@ -160,6 +160,7 @@
         /* min-width: none;
         max-width: none; */
     }
+    
 
     .svg-rest {
         width: 384px;
@@ -172,6 +173,9 @@
 
 
 @media screen and (min-width: 1024px) {
+    .section-restaurant{
+        padding-bottom: 32px;
+    }
     .container-rest {
         width: 930px;
         min-width: none;
@@ -180,7 +184,10 @@
     .im2{
         width: 194px;
     }
-
+    .rest-slaid{
+        transform: translateX(0);
+        padding-right: 47px;
+    }
     .second {
         background-color: var(--light-background-color);
     }
@@ -249,6 +256,7 @@
     .svg-rest {
         width: 930px;
         justify-content: end;
+        padding-right: 47px;
     }
 
     .after-logo {
