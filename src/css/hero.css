@@ -23,6 +23,8 @@
 }
 
 .hero-first-sec {
+  padding-top: 80px;
+  padding-bottom: 100px;
   max-width: 1440px;
   height: 720px;
   margin-left: auto;
@@ -37,7 +39,6 @@
 
 .hero-sec-container {
   width: 100%;
-  padding-top: 164px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -46,7 +47,7 @@
 .hero-map-for-mobile-only {
   display: flex;
   flex-direction: row-reverse;
-  padding-top: 65px;
+  margin-bottom: 70px;
 }
 
 .hero-first-sec-text {
@@ -86,7 +87,7 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--white-text-color);
@@ -96,7 +97,7 @@
   font-family: Times New Roman;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 29px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: var(--white-text-color);
@@ -174,15 +175,15 @@
     margin-right: 15px;
   }
   .hero-sec-container {
+    text-align: center;
     width: 100%;
-    padding-top: 95px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
   }
 
   .hero-map-and-btn-sec {
-    margin-top: 98px;
+    margin-top: 110px;
     justify-content: center;
   }
 
@@ -190,7 +191,7 @@
     display: flex;
     margin-left: 16px;
     gap: 23px;
-    margin-top: 30px;
+    margin-top: 45px;
   }
 
   .hero-pin-adres {
@@ -251,6 +252,14 @@
     margin-top: 98px;
     justify-content: center;
   }
+
+  .hero-first-sec-paragraf {
+    font-size: 16px;
+  }
+
+  .hero-first-sec-paragraf-two {
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -279,7 +288,7 @@
   }
 
   .hero-map-and-btn-sec {
-    margin-top: 135px;
+    margin-top: 62px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -296,7 +305,7 @@
 
   .hero-soc-list {
     display: flex;
-    margin-left: 16px;
+    margin-left: 47px;
     gap: 23px;
     margin-top: 28px;
   }
@@ -353,11 +362,11 @@
     color: var(--white-text-color);
   }
 
-  .hero-soc-list {
+  /* .hero-soc-list {
     display: flex;
     margin-left: 16px;
     gap: 23px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1280px) {
