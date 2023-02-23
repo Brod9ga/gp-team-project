@@ -1,298 +1,373 @@
 @font-face {
-    font-family: FilmP3;
-    src: url(../fonts/FilmP3.ttf);
+  font-family: FilmP3;
+  src: url(../fonts/FilmP3.ttf);
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
+.room-first-sec {
+  height: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../Img/Hotel-moob/hotel-hero-mob1-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 80px;
 }
 
-ul {
-    margin: 0;
-    padding-left: 0;
+.room-sec-container {
+  width: 100%;
+  padding-top: 164px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
-.sec-container {
-    max-width: 1110px;
+.room-map-for-mobile-only {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.room-first-sec-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.room-pin-adres,
+.room-pin-adres-mobile {
+  fill: var(--accent-yellow-color);
+}
+
+.room-text-whid-pin {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #e5e5e5;
+}
+
+.room-first-sec-title {
+  margin-left: 40px;
+  font-family: FilmP3;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  color: var(--white-text-color);
+}
+
+.room-first-sec-paragraf {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--white-text-color);
+}
+
+.room-first-sec-paragraf-two {
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: var(--white-text-color);
+}
+
+.room-buttum-tible,
+.room-buttum-number {
+  width: 258px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--accent-yellow-color);
+}
+
+.room-map-and-btn-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+.room-buttums-list {
+  display: flex;
+}
+
+.instagram,
+.facebook,
+.telegram {
+  fill: var(--accent-yellow-color);
+}
+
+.instagram:hover,
+.instagram:focus {
+  fill: var(--white-text-color);
+}
+
+.facebook:hover,
+.facebook:focus {
+  fill: var(--white-text-color);
+}
+
+.telegram:hover,
+.telegram:focus {
+  fill: var(--white-text-color);
+}
+
+.room-buttum-tible:hover,
+.room-buttum-tible:focus {
+  background: var(--white-text-color);
+}
+
+.room-buttum-number:hover,
+.room-buttum-number:focus {
+  background: var(--white-text-color);
+}
+
+.room-pin-adres:hover {
+  fill: var(--white-text-color);
+  border: 1px solid var(--white-text-color);
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 320px) {
+  .room-map-for-mobile-only {
+    margin-right: 15px;
+  }
+
+  .room-sec-container {
+    width: 100%;
+    padding-top: 95px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-}
+  }
 
-.list {
-    list-style: none;
-}
+  .room-map-and-btn-sec {
+    margin-top: 137px;
+    justify-content: center;
+  }
 
-.link {
-    text-decoration: none;
-}
+  .room-soc-list {
+    display: flex;
+    margin-left: 16px;
+    gap: 23px;
+    margin-top: 57px;
+  }
 
-.first-sec-room {
-    max-width: 1440px;
-    height: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-        url(../Img/Hotel-moob/hotel-hero-mob1-1x.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+  .room-pin-adres {
+    display: none;
+  }
 
-.first-sec-text {
+  .room-buttums-list {
     display: flex;
     flex-direction: column;
+    gap: 24px;
+  }
+
+  .room-pin-adres-mobile {
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    width: 210px;
+    height: 47px;
+  }
+
+  .room-text-whid-pin-mobile {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    color: #e5e5e5;
+  }
+
+  .room-first-sec-paragraf {
+    margin-top: 24px;
+  }
+
+  .room-first-sec-paragraf-two {
+    margin-top: 40px;
+  }
 }
 
-.first-sec-title {
-    margin-top: 164px;
+@media screen and (min-width: 414px) {
+  .room-map-and-btn-sec {
+    margin-top: 137px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .room-first-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../Img/Hotel-tablet/hotel-hero-tablet1-1x.jpg);
+  }
+
+  .room-sec-container {
+    width: 100%;
+    padding-top: 164px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .room-map-and-btn-sec {
+    margin-top: 159px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 47px;
+    margin-right: 47px;
+  }
+
+  .room-buttums-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+  }
+
+  .room-soc-list {
+    display: flex;
+    margin-left: 16px;
+    gap: 23px;
+    margin-top: 28px;
+  }
+
+  .room-pin-adres,
+  .room-pin-adres-mobile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    width: 285px;
+    height: 56px;
+    padding-left: 9px;
+  }
+
+  .room-map-for-mobile-only {
+    display: none;
+  }
+
+  .room-first-sec-title {
     font-family: FilmP3;
     font-style: normal;
     font-weight: 700;
     font-size: 128px;
     line-height: 1.078;
     letter-spacing: 0.3em;
-    color: var(--light-logo-color);
-}
+    color: var(--white-text-color);
+  }
 
-.first-sec-paragraf {
+  .room-first-sec-paragraf {
     margin-top: 32px;
-    Font-family: Montserrat, sans-serif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--light-logo-color);
-}
+    color: var(--white-text-color);
+  }
 
-.instagram,
-.facebook,
-.telegram,
-.pin-tu-map {
-    fill: var(--accent-yellow-color);
+  .room-first-sec-paragraf-two {
+    margin-top: 64px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.138;
+    letter-spacing: 0.05em;
+    color: var(--white-text-color);
+  }
 
-}
-
-.hero-link-text {
+  /* .room-soc-list {
     display: flex;
-    align-items: center;
+    margin-left: 16px;
+    gap: 23px;
+  } */
 }
 
-.hero-link-text-text {
+@media screen and (min-width: 1280px) {
+  .room-first-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../Img/Hotel/hotel-hero1-1x.jpg);
+  }
+
+  .room-sec-container {
+    width: 100%;
+    padding-top: 164px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .room-first-sec-title {
+    font-family: FilmP3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 1.078;
+    letter-spacing: 0.3em;
+    color: var(--white-text-color);
+  }
+
+  .room-first-sec-paragraf {
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.01em;
-    color: #E5E5E5;
-}
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--white-text-color);
+  }
 
-.hero-buttums-list {
+  .room-first-sec-paragraf-two {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.138;
+    letter-spacing: 0.05em;
+    color: var(--white-text-color);
+  }
+
+  .room-soc-link {
+    display: none;
+  }
+
+  .room-buttums-list {
     display: flex;
-    align-items: center;
     gap: 60px;
-}
+  }
 
-.hero-buttum-tible {
-    width: 258px;
-    height: 48px;
-    background: rgba(0, 0, 0, 0.4);
-    border: 2px solid #FFFFFF;
-    border-radius: 25px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
-}
-
-.hero-buttum-number {
-    width: 254px;
-    height: 48px;
-    margin-right: 85px;
-    background: rgba(0, 0, 0, 0.4);
-    border: 2px solid #FFFFFF;
-    border-radius: 25px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
-}
-
-.hero-link-text {
-    outline: 1px solid var(--accent-yellow-color);
-    padding: 15px;
-}
-
-@media screen and (min-width:414px) {
-
-    .first-sec-title {
-        margin-left: 40px;
-        font-weight: 700;
-        font-size: 96px;
-        line-height: 1.07;
-        letter-spacing: 0.3em;
-    }
-
-    .first-sec-paragraf {
-        margin-top: 24px;
-        Font-family: Montserrat, sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 2;
-        letter-spacing: 0.02em;
-    }
-
-
-    .hero-soc-link-room {
-        display: flex;
-        margin-left: 16px;
-        margin-top: 120px;
-    }
-
-    .hero-soc-list {
-        display: flex;
-        gap: 23px;
-    }
-
-    .hero-buttums-list {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-    }
-
-    .hero-buttum-tible,
-    .hero-buttum-number {
-        width: 236px;
-        height: 48px;
-    }
-
-    .hero-buttum-number {
-        margin-left: 85px;
-    }
-
-    .hero-link-text {
-        position: absolute;
-        height: 47px;
-        left: 189px;
-        top: 84px;
-    }
-
-    .hero-link-text {
-        width: 210px;
-        outline: 1px solid var(--accent-yellow-color);
-        padding: 1px;
-    }
-
-    .hero-link-text-text {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 2;
-        letter-spacing: 0.01em;
-        color: #E5E5E5;
-    }
-
-}
-
-
-@media screen and (min-width:1024px) {
-    .first-sec-room {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-            url(../Img/Hotel-tablet/hotel-hero-tablet1-1x.jpg);
-    }
-
-    .first-sec-title {
-        margin-top: 188px;
-        font-weight: 700;
-        font-size: 128px;
-        line-height: 1;
-        letter-spacing: 0.3em;
-    }
-
-    .first-sec-paragraf {
-        margin-top: 16px;
-        Font-family: Montserrat, sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 2;
-        letter-spacing: 0.02em;
-    }
-
-    .hero-soc-link-room {
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .hero-soc-list {
-        margin-top: 10px;
-        margin-left: 48px;
-        display: flex;
-        gap: 23px;
-    }
-
-    .hero-map-and-btn-sec-room {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 47px;
-        margin-top: 125px;
-        align-items: end;
-    }
-
-    .hero-link-text {
-        position: static;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 2;
-        letter-spacing: 0.01em;
-    }
-
-    .hero-buttums-list {
-        margin-top: 135px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-}
-/* vau */
-
-@media screen and (min-width:1280px) {
-    .first-sec-room {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-            url(../Img/Hotel/hotel-hero1-1x.jpg);
-    }
-
-    .hero-soc-link-room {
-        display: none;
-
-    }
-
-    .hero-map-and-btn-sec-room {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 85px;
-        margin-top: 105px;
-    }
-
+  .room-map-and-btn-sec {
+    /* margin-top: 255px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 47px;
+    margin-right: 47px;
+  }
 }

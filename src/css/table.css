@@ -1,62 +1,6 @@
-:root {
-  --white-background-color: #ffffff;
-  --light-background-color: #fffdee;
-  --dark-background-color: #f0ecd6;
-  --footer-background-color: #0e0c07;
-  --light-logo-color: #ffffff;
-  --dark-logo-color: #494848;
-  --accent-yellow-color: #f3c653;
-  --white-text-color: #ffffff;
-  --black-text-color: #000000;
-  --body-text-color: #7a7a7a;
-  --brown-text-color: #c79002;
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
 
-p:last-child {
-  margin-bottom: 0;
-}
 
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
-}
 
 .conteiner-table {
   margin: 0 auto;
@@ -67,7 +11,7 @@ img {
   padding-bottom: 40px;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.65);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/Img/Homepage-mob/Homepage-hero-mob2-1x.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/Homepage-mob/Homepage-hero-mob2-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -92,7 +36,7 @@ img {
 
 .table-logo {
   font-family: FilmP3, sans-serif;
-  src: url(/images/FilmP3.ttf);
+  src: url(/src/fonts/FilmP3.ttf);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -233,6 +177,7 @@ img {
   .table-text {
     width: 259px;
     margin-right: 0;
+    
   }
 
 }
@@ -245,6 +190,8 @@ img {
   .table-text {
     width: 259px;
     margin-right: 0;
+    margin-left: 109px;
+    margin-bottom: 48px;
   }
 
   .cont-tab {
