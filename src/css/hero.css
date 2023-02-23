@@ -150,6 +150,10 @@
 
 
 @media screen and (min-width:320px) {
+
+    .hero-map-for-mobile-only {
+           margin-right: 15px;
+        }
     .hero-sec-container {
         width: 100%;
         padding-top: 95px;
@@ -159,6 +163,7 @@
     }
 
     .hero-map-and-btn-sec {
+        margin-top: 98px;
         justify-content: center;
     }
 
@@ -208,7 +213,12 @@
 
 }
 
-@media screen and (min-width:414px) {}
+@media screen and (min-width:414px) {
+    .hero-map-and-btn-sec {
+        margin-top: 98px;
+        justify-content: center;
+    }
+}
 
 @media screen and (min-width:1024px) {
     .hero-first-sec {
@@ -225,6 +235,7 @@
     }
 
     .hero-map-and-btn-sec {
+        margin-top: 135px;
         display: flex;
         align-items: center;
         justify-content: space-between;
