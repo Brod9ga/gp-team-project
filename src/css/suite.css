@@ -260,7 +260,7 @@ body {
     z-index: 2;
   }
   .wrapper-suite-photos {
-    margin-bottom: 20px;
+    margin-bottom: 32px;
   }
 
   .wrapper-photos-arrbtns {
@@ -275,6 +275,7 @@ body {
 
   .wrapper-btns-list {
     margin-bottom: 0px;
+    margin-top: 0px;
   }
 
   .arrow-btns {
