@@ -13,6 +13,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 80px;
 }
 
 .room-sec-container {
@@ -26,7 +27,6 @@
 .room-map-for-mobile-only {
   display: flex;
   flex-direction: row-reverse;
-  padding-top: 65px;
 }
 
 .room-first-sec-text {
@@ -46,7 +46,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.8;
+  line-height: 1.25;
   letter-spacing: 0.01em;
   color: #e5e5e5;
 }
@@ -161,7 +161,7 @@
   }
 
   .room-map-and-btn-sec {
-    margin-top: 189px;
+    margin-top: 137px;
     justify-content: center;
   }
 
@@ -169,7 +169,7 @@
     display: flex;
     margin-left: 16px;
     gap: 23px;
-    margin-top: 30px;
+    margin-top: 57px;
   }
 
   .room-pin-adres {
@@ -212,7 +212,7 @@
 
 @media screen and (min-width: 414px) {
   .room-map-and-btn-sec {
-    margin-top: 189px;
+    margin-top: 137px;
     justify-content: center;
   }
 }
@@ -232,7 +232,7 @@
   }
 
   .room-map-and-btn-sec {
-    margin-top: 235px;
+    margin-top: 159px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -263,6 +263,7 @@
     border-radius: 2px;
     width: 285px;
     height: 56px;
+    padding-left: 9px;
   }
 
   .room-map-for-mobile-only {
@@ -301,11 +302,11 @@
     color: var(--white-text-color);
   }
 
-  .room-soc-list {
+  /* .room-soc-list {
     display: flex;
     margin-left: 16px;
     gap: 23px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1280px) {
@@ -362,7 +363,7 @@
   }
 
   .room-map-and-btn-sec {
-    margin-top: 255px;
+    /* margin-top: 255px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
