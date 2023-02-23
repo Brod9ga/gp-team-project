@@ -1,368 +1,363 @@
 @font-face {
-    font-family: FilmP3;
-    src: url(../fonts/FilmP3.ttf);
+  font-family: FilmP3;
+  src: url(../fonts/FilmP3.ttf);
 }
 
 .restorant-first-sec {
-    max-width: 1440px;
-    height: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-        url(../Img/Restaurant-mob/restaurant-hero-mob1-1x.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  height: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../Img/Restaurant-mob/restaurant-hero-mob1-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .restorant-sec-container {
-    width: 100%;
-    padding-top: 164px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+  width: 100%;
+  padding-top: 164px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .restorant-map-for-mobile-only {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-top: 65px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 65px;
 }
 
 .restorant-first-sec-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .restorant-pin-adres,
 .restorant-pin-adres-mobile {
-    fill: var(--accent-yellow-color);
+  fill: var(--accent-yellow-color);
 }
 
 .restorant-text-whid-pin {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 0.8;
-    letter-spacing: 0.01em;
-    color: #E5E5E5;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.8;
+  letter-spacing: 0.01em;
+  color: #e5e5e5;
 }
 
 .restorant-first-sec-title {
-    margin-left: 40px;
-    font-family: FilmP3;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 1.07;
-    letter-spacing: 0.3em;
-    color: var(--white-text-color);
+  margin-left: 40px;
+  font-family: FilmP3;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  color: var(--white-text-color);
 }
 
 .restorant-first-sec-paragraf {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-    color: var(--white-text-color);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--white-text-color);
 }
 
 .restorant-first-sec-paragraf-two {
-    font-family: Times New Roman;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.15;
-    letter-spacing: 0.05em;
-    color: var(--white-text-color);
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: var(--white-text-color);
 }
 
 .restorant-buttum-tible,
 .restorant-buttum-number {
-    width: 258px;
-    height: 48px;
-    background: rgba(0, 0, 0, 0.4);
-    border: 2px solid #FFFFFF;
-    border-radius: 25px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-    color: var(--accent-yellow-color);
+  width: 258px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--accent-yellow-color);
 }
 
 .restorant-map-and-btn-sec {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 85px;
-    margin-right: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 85px;
+  margin-right: 85px;
 }
 
 .restorant-buttums-list {
-    display: flex;
+  display: flex;
 }
 
 .instagram,
 .facebook,
 .telegram {
-    fill: var(--accent-yellow-color);
+  fill: var(--accent-yellow-color);
 }
 
 .instagram:hover,
 .instagram:focus {
-    fill: var(--white-text-color);
+  fill: var(--white-text-color);
 }
 
 .facebook:hover,
 .facebook:focus {
-    fill: var(--white-text-color);
+  fill: var(--white-text-color);
 }
 
 .telegram:hover,
 .telegram:focus {
-    fill: var(--white-text-color);
+  fill: var(--white-text-color);
 }
 
 .restorant-buttum-tible:hover,
 .restorant-buttum-tible:focus {
-    background: var(--white-text-color);
+  background: var(--white-text-color);
 }
 
 .restorant-buttum-number:hover,
 .restorant-buttum-number:focus {
-    background: var(--white-text-color);
+  background: var(--white-text-color);
 }
 
 .restorant-pin-adres:hover {
-    fill: var(--white-text-color);
-    border: 1px solid var(--white-text-color);
+  fill: var(--white-text-color);
+  border: 1px solid var(--white-text-color);
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 320px) {
+  .restorant-map-for-mobile-only {
+    margin-right: 15px;
+  }
+
+  .restorant-sec-container {
+    width: 100%;
+    padding-top: 95px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .restorant-map-and-btn-sec {
+    margin-top: 98px;
+    justify-content: center;
+  }
+
+  .restorant-soc-list {
+    display: flex;
+    margin-left: 16px;
+    gap: 23px;
+    margin-top: 30px;
+  }
+
+  .restorant-pin-adres {
+    display: none;
+  }
+
+  .restorant-buttums-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .restorant-pin-adres-mobile {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
+    width: 210px;
+    height: 47px;
+  }
+
+  .restorant-text-whid-pin-mobile {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    color: #e5e5e5;
+  }
+
+  .restorant-first-sec-paragraf {
+    margin-top: 24px;
+  }
+
+  .restorant-first-sec-paragraf-two {
+    margin-top: 40px;
+  }
 }
 
-
-@media screen and (min-width:320px) {
-
-    .restorant-map-for-mobile-only {
-        margin-right: 15px;
-    }
-
-    .restorant-sec-container {
-        width: 100%;
-        padding-top: 95px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-    }
-
-    .restorant-map-and-btn-sec {
-        margin-top: 98px;
-        justify-content: center;
-    }
-
-    .restorant-soc-list {
-        display: flex;
-        margin-left: 16px;
-        gap: 23px;
-        margin-top: 30px;
-    }
-
-    .restorant-pin-adres {
-        display: none;
-    }
-
-    .restorant-buttums-list {
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-    }
-
-    .restorant-pin-adres-mobile {
-        display: flex;
-        align-items: center;
-        border: 1px solid rgba(243, 198, 83, 0.7);
-        border-radius: 2px;
-        width: 210px;
-        height: 47px;
-    }
-
-    .restorant-text-whid-pin-mobile {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.25;
-        letter-spacing: 0.01em;
-        color: #E5E5E5;
-    }
-
-    .restorant-first-sec-paragraf {
-        margin-top: 24px;
-    }
-
-    .restorant-first-sec-paragraf-two {
-        margin-top: 40px;
-    }
-
+@media screen and (min-width: 414px) {
+  .restorant-map-and-btn-sec {
+    margin-top: 98px;
+    justify-content: center;
+  }
 }
 
-@media screen and (min-width:414px) {
-    .restorant-map-and-btn-sec {
-        margin-top: 98px;
-        justify-content: center;
-    }
+@media screen and (min-width: 1024px) {
+  .restorant-first-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../Img/Restaurant-tablet/restaurant-hero-tablet1-1x.jpg);
+  }
+
+  .restorant-sec-container {
+    width: 100%;
+    padding-top: 164px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .restorant-map-and-btn-sec {
+    margin-top: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 47px;
+    margin-right: 47px;
+  }
+
+  .restorant-buttums-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+  }
+
+  .restorant-soc-list {
+    display: flex;
+    margin-left: 16px;
+    gap: 23px;
+    margin-top: 28px;
+  }
+
+  .restorant-pin-adres,
+  .restorant-pin-adres-mobile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    width: 285px;
+    height: 56px;
+  }
+
+  .restorant-map-for-mobile-only {
+    display: none;
+  }
+
+  .restorant-first-sec-title {
+    font-family: FilmP3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 1.078;
+    letter-spacing: 0.3em;
+    color: var(--white-text-color);
+  }
+
+  .restorant-first-sec-paragraf {
+    margin-top: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--white-text-color);
+  }
+
+  .restorant-first-sec-paragraf-two {
+    margin-top: 64px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.138;
+    letter-spacing: 0.05em;
+    color: var(--white-text-color);
+  }
+
+  .restorant-soc-list {
+    display: flex;
+    margin-left: 16px;
+    gap: 23px;
+  }
 }
 
-@media screen and (min-width:1024px) {
-    .restorant-first-sec {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-            url(../Img/Restaurant-tablet/restaurant-hero-tablet1-1x.jpg);
-    }
+@media screen and (min-width: 1280px) {
+  .restorant-first-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../Img/Restaurant/restaurant-hero1-1x.jpg);
+  }
 
-    .restorant-sec-container {
-        width: 100%;
-        padding-top: 164px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-    }
+  .restorant-sec-container {
+    width: 100%;
+    padding-top: 164px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
 
-    .restorant-map-and-btn-sec {
-        margin-top: 135px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-left: 47px;
-        margin-right: 47px;
-    }
+  .restorant-first-sec-title {
+    font-family: FilmP3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 1.078;
+    letter-spacing: 0.3em;
+    color: var(--white-text-color);
+  }
 
-    .restorant-buttums-list {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 40px;
-    }
+  .restorant-first-sec-paragraf {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--white-text-color);
+  }
 
-    .restorant-soc-list {
-        display: flex;
-        margin-left: 16px;
-        gap: 23px;
-        margin-top: 28px;
-    }
+  .restorant-first-sec-paragraf-two {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.138;
+    letter-spacing: 0.05em;
+    color: var(--white-text-color);
+  }
 
-    .restorant-pin-adres,
-    .restorant-pin-adres-mobile {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        border: 1px solid rgba(243, 198, 83, 0.7);
-        border-radius: 2px;
-        width: 285px;
-        height: 56px;
-    }
+  .restorant-soc-link {
+    display: none;
+  }
 
-    .restorant-map-for-mobile-only {
-        display: none;
-    }
-
-    .restorant-first-sec-title {
-        font-family: FilmP3;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 128px;
-        line-height: 1.078;
-        letter-spacing: 0.3em;
-        color: var(--white-text-color);
-    }
-
-    .restorant-first-sec-paragraf {
-        margin-top: 32px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--white-text-color);
-    }
-
-    .restorant-first-sec-paragraf-two {
-        margin-top: 64px;
-        font-family: Times New Roman;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.138;
-        letter-spacing: 0.05em;
-        color: var(--white-text-color);
-    }
-
-    .restorant-soc-list {
-        display: flex;
-        margin-left: 16px;
-        gap: 23px;
-    }
-
-}
-
-@media screen and (min-width:1280px) {
-    .restorant-first-sec {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-            url(../Img/Restaurant/restaurant-hero1-1x.jpg);
-    }
-
-    .restorant-sec-container {
-        width: 100%;
-        padding-top: 164px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-    }
-
-    .restorant-first-sec-title {
-        font-family: FilmP3;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 128px;
-        line-height: 1.078;
-        letter-spacing: 0.3em;
-        color: var(--white-text-color);
-    }
-
-    .restorant-first-sec-paragraf {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--white-text-color);
-    }
-
-    .restorant-first-sec-paragraf-two {
-        font-family: Times New Roman;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.138;
-        letter-spacing: 0.05em;
-        color: var(--white-text-color);
-    }
-
-    .restorant-soc-link {
-        display: none;
-    }
-
-    .restorant-buttums-list {
-        display: flex;
-        gap: 60px;
-    }
+  .restorant-buttums-list {
+    display: flex;
+    gap: 60px;
+  }
 }
